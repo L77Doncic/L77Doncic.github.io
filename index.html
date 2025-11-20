@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>整蛊页面</title>
+    <style>
+        @property --a {
+            syntax: '<angle>';
+            inherits: true;
+            initial-value: 0deg;
+        }
+        @property --spin {
+            syntax: '<angle>';
+            inherits: true;
+            initial-value: 0deg;
+        }
+        html, body {
+            height: 100%;
+        }
+        body {
+            margin: 0;
+            /* 白色背景，尽量亮一些 */
+            background: #fcfcfc;
+            color: #222;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: -8% -8% -8% -8%;
+             background:
+                conic-gradient(from 0deg,
+                    /* 第一象限 0-90deg */
+                    rgba(255,211,0,0.10) 0deg, rgba(255,211,0,0.10) 6deg, transparent 6deg, transparent 12deg,
+                    rgba(255,120,120,0.10) 12deg, rgba(255,120,120,0.10) 18deg, transparent 18deg, transparent 24deg,
+                    rgba(120,180,255,0.12) 24deg, rgba(120,180,255,0.12) 30deg, transparent 30deg, transparent 36deg,
+                    rgba(255,110,230,0.10) 36deg, rgba(255,110,230,0.10) 42deg, transparent 42deg, transparent 48deg,
+                    rgba(255,165,0,0.10) 48deg, rgba(255,165,0,0.10) 54deg, transparent 54deg, transparent 60deg,
+                    rgba(255,211,0,0.10) 60deg, rgba(255,211,0,0.10) 66deg, transparent 66deg, transparent 72deg,
+                    rgba(120,180,255,0.12) 72deg, rgba(120,180,255,0.12) 78deg, transparent 78deg, transparent 84deg,
+                    rgba(255,110,230,0.10) 84deg, rgba(255,110,230,0.10) 90deg, transparent 90deg, transparent 96deg,
+                    /* 第二象限 90-180deg */
+                    rgba(255,165,0,0.10) 96deg, rgba(255,165,0,0.10) 102deg, transparent 102deg, transparent 108deg,
+                    rgba(255,211,0,0.10) 108deg, rgba(255,211,0,0.10) 114deg, transparent 114deg, transparent 120deg,
+                    rgba(255,120,120,0.10) 120deg, rgba(255,120,120,0.10) 126deg, transparent 126deg, transparent 132deg,
+                    rgba(120,180,255,0.12) 132deg, rgba(120,180,255,0.12) 138deg, transparent 138deg, transparent 144deg,
+                    rgba(255,110,230,0.10) 144deg, rgba(255,110,230,0.10) 150deg, transparent 150deg, transparent 156deg,
+                    rgba(255,165,0,0.10) 156deg, rgba(255,165,0,0.10) 162deg, transparent 162deg, transparent 168deg,
+                    rgba(255,211,0,0.10) 168deg, rgba(255,211,0,0.10) 174deg, transparent 174deg, transparent 180deg,
+                    rgba(120,180,255,0.12) 180deg, rgba(120,180,255,0.12) 186deg, transparent 186deg, transparent 192deg,
+                    /* 第三象限 180-270deg */
+                    rgba(255,110,230,0.10) 192deg, rgba(255,110,230,0.10) 198deg, transparent 198deg, transparent 204deg,
+                    rgba(255,165,0,0.10) 204deg, rgba(255,165,0,0.10) 210deg, transparent 210deg, transparent 216deg,
+                    rgba(255,211,0,0.10) 216deg, rgba(255,211,0,0.10) 222deg, transparent 222deg, transparent 228deg,
+                    rgba(255,120,120,0.10) 228deg, rgba(255,120,120,0.10) 234deg, transparent 234deg, transparent 240deg,
+                    rgba(120,180,255,0.12) 240deg, rgba(120,180,255,0.12) 246deg, transparent 246deg, transparent 252deg,
+                    rgba(255,110,230,0.10) 252deg, rgba(255,110,230,0.10) 258deg, transparent 258deg, transparent 264deg,
+                    rgba(255,165,0,0.10) 264deg, rgba(255,165,0,0.10) 270deg, transparent 270deg, transparent 276deg,
+                    rgba(255,211,0,0.10) 276deg, rgba(255,211,0,0.10) 282deg, transparent 282deg, transparent 288deg,
+                    /* 第四象限 270-360deg */
+                    rgba(120,180,255,0.12) 288deg, rgba(120,180,255,0.12) 294deg, transparent 294deg, transparent 300deg,
+                    rgba(255,110,230,0.10) 300deg, rgba(255,110,230,0.10) 306deg, transparent 306deg, transparent 312deg,
+                    rgba(255,165,0,0.10) 312deg, rgba(255,165,0,0.10) 318deg, transparent 318deg, transparent 324deg,
+                    rgba(255,211,0,0.10) 324deg, rgba(255,211,0,0.10) 330deg, transparent 330deg, transparent 336deg,
+                    rgba(255,120,120,0.10) 336deg, rgba(255,120,120,0.10) 342deg, transparent 342deg, transparent 348deg,
+                    rgba(120,180,255,0.12) 348deg, rgba(120,180,255,0.12) 354deg, transparent 354deg, transparent 360deg);
+            opacity: 0.25;
+            pointer-events: none;
+        }
+
+        .stage {
+            position: relative;
+            width: min(85vmin, 800px);
+            height: min(85vmin, 800px);
+        }
+
+        .center-text {
+            position: absolute;
+            inset: 0;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            padding: 16px;
+            z-index: 2;
+        }
+        .center-text .text {
+            font-weight: 900;
+            line-height: 1.25;
+            letter-spacing: 2px;
+            font-size: clamp(36px, 7.5vmin, 78px);
+            /* 多色循环渐变 */
+            background: linear-gradient(90deg, #ff3b30, #ffcc00, #34c759, #0a84ff, #af52de, #ff3b30);
+            background-size: 300% 100%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+            /* -webkit-text-stroke: 1.5px #ddd; */
+            text-stroke: 1.5px #ddd;
+            border-radius: 18px;
+            padding: 0.45em .5em;
+            animation: gradientShift 3.2s linear infinite, jitter 0.5s ease-in-out infinite alternate;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes jitter {
+            0% { transform: translateY(0px) rotate(0deg); }
+            30% { transform: translateY(-1.5px) rotate(-0.35deg); }
+            60% { transform: translateY(1.2px) rotate(0.4deg); }
+            100% { transform: translateY(-0.8px) rotate(-0.25deg); }
+        }
+
+        .orbit {
+            position: absolute;
+            inset: 0;
+            animation: spinVar 14s linear infinite;
+            transform-origin: 50% 50%;
+            transform: rotate(var(--a));
+            will-change: transform;
+        }
+        @keyframes spinVar { from { --a: 0deg; } to { --a: 360deg; } }
+
+        .item {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform-origin: 50% 50%;
+        }
+        /* .item .sprite {
+            display: inline-block;
+            transform: rotate(calc(-1 * (var(--a) + var(--base)) + 90deg)) rotate(var(--spin));
+            animation: wobble 15s ease-in-out infinite;
+        }
+        @keyframes wobble {
+            0%   { --spin: 0deg; }
+            10%   { --spin: 36deg; }
+            20%   { --spin: 72deg; }
+            30%   { --spin: 108deg; }
+            40%   { --spin: 144deg; }
+            50%   { --spin: 188deg; }
+            60%   { --spin: 216deg; }
+            70%   { --spin: 252deg; }
+            80%   { --spin: 288deg; }
+            90%   { --spin: 324deg; }
+            100%   { --spin: 360deg; }
+        } */
+        .item img {
+            width: clamp(224px, 36vmin, 384px);
+            height: clamp(224px, 36vmin, 384px);
+            object-fit: contain;
+            /* 去掉阴影 */
+            user-select: none;
+            pointer-events: none;
+        }
+
+        /* 调整半径（围绕中心的距离） → 向外扩散 */
+        :root { --radius: calc(min(45vmin, 380px)); }
+
+        /* 均匀分布（间隔 72°），记录每个起始角 --base */
+        .pos-top      { --base: -90deg; transform: translate(-50%, -50%) rotate(var(--base)) translate(var(--radius)); }
+        .pos-right    { --base: -18deg; transform: translate(-50%, -50%) rotate(var(--base)) translate(var(--radius)); }
+        .pos-rightbot { --base: 54deg;  transform: translate(-50%, -50%) rotate(var(--base)) translate(var(--radius)); }
+        .pos-bot      { --base: 126deg; transform: translate(-50%, -50%) rotate(var(--base)) translate(var(--radius)); }
+        .pos-left     { --base: 198deg; transform: translate(-50%, -50%) rotate(var(--base)) translate(var(--radius)); }
+
+        /* 让页面在极小屏幕也不溢出 */
+        @media (max-width: 360px) {
+            :root { --radius: 40vmin; }
+        }
+
+        .fly-tip {
+            position: fixed;
+            width: min(70vmin, 320px);
+            background: #f2f2f2;
+            border: 1px solid #c6c6c6;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            border-radius: 6px;
+            overflow: hidden;
+            z-index: 10;
+            animation: around 22s linear infinite;
+        }
+        .tip-title {
+            background: linear-gradient(#e6e6e6, #d6d6d6);
+            color: #111;
+            padding: 6px 10px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #c6c6c6;
+            font-size: 14px;
+        }
+        .tip-close {
+            all: unset;
+            cursor: default;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            border-radius: 3px;
+            line-height: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+        .tip-close:active { background: #c00; color: #fff; }
+        .tip-body {
+            display: flex;
+            gap: 10px;
+            padding: 12px 14px 14px;
+            align-items: center;
+        }
+        .tip-icon { font-size: 22px; }
+        .tip-text { font-size: 14px; line-height: 1.5; }
+
+        @keyframes around {
+            0%   { left: 10px; right: auto; top: 10px; bottom: auto; }
+            24%  { left: calc(100vw - 10px - min(70vmin, 320px)); top: 10px; }
+            25%  { left: calc(100vw - 10px - min(70vmin, 320px)); top: 10px; }
+            49%  { left: calc(100vw - 10px - min(70vmin, 320px)); top: calc(100vh - 10px - 100px); }
+            50%  { left: calc(100vw - 10px - min(70vmin, 320px)); top: calc(100vh - 10px - 100px); }
+            74%  { left: 10px; top: calc(100vh - 10px - 100px); }
+            75%  { left: 10px; top: calc(100vh - 10px - 100px); }
+            99%  { left: 10px; top: 10px; }
+            100% { left: 10px; top: 10px; }
+        }
+    </style>
+    <meta name="color-scheme" content="dark light" />
+</head>
+<body>
+    <div class="stage" aria-label="整蛊旋转页面">
+        <div class="center-text">
+            <div class="text">都和你说了不要点陌生链接了<br>你还点</div>
+        </div>
+
+        <div class="orbit" aria-hidden="true">
+            <div class="item pos-top">
+                <div class="sprite"><img src="shang.png" alt="上方图片" /></div>
+            </div>
+            <div class="item pos-right">
+                <div class="sprite"><img src="you.png" alt="右侧图片" /></div>
+            </div>
+            <div class="item pos-rightbot">
+                <div class="sprite"><img src="youxia.png" alt="右下图片" /></div>
+            </div>
+            <div class="item pos-bot">
+                <div class="sprite"><img src="zhongxia.png" alt="中下图片" /></div>
+            </div>
+            <div class="item pos-left">
+                <div class="sprite"><img src="zuo.png" alt="左侧图片" /></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fly-tip" role="alertdialog" aria-live="polite" aria-label="温馨提示">
+        <div class="tip-title">
+            温馨提示
+            <button class="tip-close" aria-label="关闭">×</button>
+        </div>
+        <div class="tip-body">
+            <div class="tip-icon">⚠</div>
+            <div class="tip-text">
+                系统检测到你点击了陌生链接<br>
+                “防骗指数：0%”
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
