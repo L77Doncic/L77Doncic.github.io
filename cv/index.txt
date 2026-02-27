@@ -132,7 +132,7 @@ SCU Maker开源硬件协会 – 四川大学
 ## 专业技能
 
 - **编程语言与工具：** 熟练掌握 Python、C++ 和 Git；对 Web 开发、移动应用开发及 DevOps 均有良好理解。
-- **语言能力：** 英语（流利，CET-6：504）。
+- **语言能力：** 英语（流利，CET-6：562）。
 - **摄影：** 风景摄影爱好者；熟练使用微单相机及 Adobe Lightroom / Photoshop 进行后期处理。
 
 ## 荣誉奖项
@@ -224,7 +224,7 @@ Feiyang Club – Sichuan University
 ## Skills
 
 - **Programming:** Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-- **Languages:** English (fluent, CET6:504)
+- **Languages:** English (fluent, CET6:562)
 - **Photography:** Enthusiast in landscape photography; proficient with mirrorless cameras and Adobe Lightroom/Photoshop for post-processing
 
 ## Awards & Honors
