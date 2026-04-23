@@ -137,6 +137,7 @@ SCU Maker开源硬件协会 – 四川大学
 
 ## 荣誉奖项
 
+- **全国三等奖** - 华为ICT大赛 (*2026年4月*)
 - **全国二等奖** - 全国大学生电子设计竞赛 - 2024年嵌入式系统专题邀请赛（英特尔杯） (*2024年7月*)
 - **省级一等奖** - 2024年全国大学生物联网设计竞赛（华为杯） (*2024年8月*)
 - **人气奖奖** - 第九届上海图书馆开放数据竞赛 (*2024年10月*)
@@ -229,6 +230,7 @@ Feiyang Club – Sichuan University
 
 ## Awards & Honors
 
+- **National 3rd Prize** - Huawei ICT Competition (*Apr 2026*)
 - **National 2nd Prize** - Undergraduate Electronic Design Contest - 2024 Embedded System Design Invitational Contest (Intel Cup) (*July 2024*)
 - **Provincial 1st Prize** - 2024 National Undergraduate IoT Design Contest (Huawei Cup) (*Aug 2024*)
 - **People’s Choice Award** - The 9th Shanghai Library Open Data Competition (*Oct 2024*)
