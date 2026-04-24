@@ -60,7 +60,7 @@ f:I[4911,[],"AsyncMetadataOutlet"]
 15:I[4911,[],"AsyncMetadata"]
 17:I[2382,["461","static/chunks/461-a9a5d7b05a71d978.js","178","static/chunks/178-595a94b9af1e67b5.js","748","static/chunks/748-56674db557bf7043.js","182","static/chunks/app/%5Bslug%5D/page-dd9a6f0c3a6fd434.js"],"default"]
 b:["$","$14",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]
-18:T1190,## 教育背景
+18:T119d,## 教育背景
 
 **四川大学**，计算机科学与技术，工学学士 – 中国成都，*2023年9月 - 至今*
 - GPA: 3.64/4.0，专业排名 13/323
@@ -152,7 +152,7 @@ SCU Maker开源硬件协会 – 四川大学
 ## 专利与软件著作权
 
 - **实质审查专利：** 2 项（其中 1 项为第一作者，1 项为共同作者）
-- **软件著作权：** 2 项已授权（共同作者）19:T127f,## Education
+- **软件著作权：** 2 项已授权（共同作者）19:T1282,## Education
 
 **Sichuan University**, Bachelor of Engineering in Computer Science – Chengdu, China, *Sept 2023 - present*
 - GPA: 3.64/4.0, ranked 13 out of 323 students
