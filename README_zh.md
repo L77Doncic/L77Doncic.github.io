@@ -39,9 +39,6 @@
   Yiming Liu, Wei Li, Ran Ran, Yongqi Wang, **Tao Xu**, Jun Tao  
   *Advanced Intelligent Computing Technology and Applications, ICIC 2025*
 
-- **GCTrajectory: A CNN-Transformer Adversarial Learning Framework for Flight Trajectory Prediction**  
-  Jinyang Fang, Yiming Liu, **Tao Xu**, Yongqi Wang, Junlin Li  
-  *ICAACE 2025*
 
 ## 近期动态
 
