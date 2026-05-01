@@ -60,7 +60,7 @@ f:I[4911,[],"AsyncMetadataOutlet"]
 15:I[4911,[],"AsyncMetadata"]
 17:I[2382,["461","static/chunks/461-a9a5d7b05a71d978.js","178","static/chunks/178-595a94b9af1e67b5.js","748","static/chunks/748-56674db557bf7043.js","182","static/chunks/app/%5Bslug%5D/page-dd9a6f0c3a6fd434.js"],"default"]
 b:["$","$14",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]
-18:T10fd,## 教育背景
+18:T10cb,## 教育背景
 
 **四川大学**，计算机科学与技术，工学学士 – 中国成都，*2023年9月 - 至今*
 - GPA: 3.64/4.0，专业排名 13/323
@@ -74,14 +74,13 @@ b:["$","$14",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"
 ## 实习与工作经验
 
 **实习生**
-百度 – 远程
-*2025年8月 - 至今*
-- 重构旧版代码库，确保与新版本飞桨（PaddlePaddle）框架的兼容性，加速高校教育场景的迭代周期。
-- 审核并发布其他实习生修改的项目。
+百度
+*2025年8月 - 2026年3月*
+- 企业级AI模型应用开发，负责大小模型项目测试与修复，应用飞桨及文心开发套件完成模型调参等。
 
 **副主席**
 百度飞桨领航团 – 四川大学
-*2025年9月 - 至今*
+*2025年9月 - 2026年9月*
 - 牵头策划校园宣传活动，在校园内推广深度学习框架飞桨（PaddlePaddle）技术。
 
 **部长**
@@ -147,7 +146,7 @@ SCU Maker开源硬件协会 – 四川大学
 ## 专利与软件著作权
 
 - **实质审查专利：** 2 项（其中 1 项为第一作者，1 项为共同作者）
-- **软件著作权：** 2 项已授权（共同作者）19:T11ce,## Education
+- **软件著作权：** 2 项已授权（共同作者）19:T1193,## Education
 
 **Sichuan University**, Bachelor of Engineering in Computer Science – Chengdu, China, *Sept 2023 - present*
 - GPA: 3.64/4.0, ranked 13 out of 323 students
@@ -161,14 +160,13 @@ SCU Maker开源硬件协会 – 四川大学
 ## Experience
 
 **Intern**
-Baidu – Online
-*Aug 2025 - present*
-- Refactored legacy codebases to ensure compatibility with the latest PaddlePaddle framework, accelerating the iteration cycle for university educational scenarios.
-- Reviewed and released other intern-modified projects.
+Baidu
+*Aug 2025 - Mar 2026*
+- Developed enterprise-level AI model applications, tested and fixed large- and small-model projects, and used PaddlePaddle and Wenxin development kits for model tuning.
 
 **Vice President**
 Baidu PaddlePaddle Leading Group – Sichuan University
-*Sept 2025 - present*
+*Sept 2025 - Sept 2026*
 - Spearheaded publicity campaigns to promote deep learning framework PaddlePaddle technologies on campus.
 
 **Club Minister**
