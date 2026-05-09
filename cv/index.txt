@@ -60,7 +60,7 @@ f:I[4911,[],"AsyncMetadataOutlet"]
 15:I[4911,[],"AsyncMetadata"]
 17:I[2382,["461","static/chunks/461-a9a5d7b05a71d978.js","178","static/chunks/178-595a94b9af1e67b5.js","748","static/chunks/748-56674db557bf7043.js","182","static/chunks/app/%5Bslug%5D/page-dd9a6f0c3a6fd434.js"],"default"]
 b:["$","$14",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]
-18:Tff6,## 教育背景
+18:T1042,## 教育背景
 
 **四川大学**，计算机科学与技术，工学学士 – 中国成都，*2023年9月 - 至今*
 - GPA: 3.64/4.0，专业排名 13/323
@@ -129,6 +129,7 @@ SCU Maker开源硬件协会 – 四川大学
 
 ## 荣誉奖项
 
+- **H奖** - 美国大学生数学建模竞赛（MCM/ICM） (*2026年5月*)
 - **全国三等奖** - 华为ICT大赛 (*2026年4月*)
 - **全国二等奖** - 全国大学生电子设计竞赛 - 2024年嵌入式系统专题邀请赛（英特尔杯） (*2024年7月*)
 - **省级一等奖** - 2024年全国大学生物联网设计竞赛（华为杯） (*2024年8月*)
@@ -145,7 +146,7 @@ SCU Maker开源硬件协会 – 四川大学
 ## 专利与软件著作权
 
 - **实质审查专利：** 2 项（其中 1 项为第一作者，1 项为共同作者）
-- **软件著作权：** 2 项已授权（共同作者）19:T10c1,## Education
+- **软件著作权：** 2 项已授权（共同作者）19:T113b,## Education
 
 **Sichuan University**, Bachelor of Engineering in Computer Science – Chengdu, China, *Sept 2023 - present*
 - GPA: 3.64/4.0, ranked 13 out of 323 students
@@ -214,6 +215,7 @@ Feiyang Club – Sichuan University
 
 ## Awards & Honors
 
+- **Honorable Mention** - Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM) (*May 2026*)
 - **National 3rd Prize** - Huawei ICT Competition (*Apr 2026*)
 - **National 2nd Prize** - Undergraduate Electronic Design Contest - 2024 Embedded System Design Invitational Contest (Intel Cup) (*July 2024*)
 - **Provincial 1st Prize** - 2024 National Undergraduate IoT Design Contest (Huawei Cup) (*Aug 2024*)
