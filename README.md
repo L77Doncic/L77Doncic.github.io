@@ -1,6 +1,6 @@
 # Tao Xu
 
-> Undergraduate student at Sichuan University, exploring LLMs, AI4Science, bioinformatics, and intelligent systems.
+> Undergraduate student at Sichuan University, exploring LLMs, AI4Science, embodied intelligence (VLA), and intelligent systems.
 
 **Language / 语言**: [English](README.md) | [中文](README_zh.md)
 
@@ -10,7 +10,7 @@
 
 Hi, I am **Tao Xu**, an undergraduate student majoring in Computer Science and Technology at Sichuan University.
 
-My interests sit at the intersection of **large language models**, **AI4Science**, **bioinformatics**, and **intelligent aerospace systems**. I enjoy turning research questions into systems that can be modeled, implemented, and improved, while looking for meaningful problems from real-world needs.
+My interests sit at the intersection of **large language models**, **AI4Science**, **embodied intelligence (VLA)**, and **intelligent aerospace systems**. I enjoy turning research questions into systems that can be modeled, implemented, and improved, while looking for meaningful problems from real-world needs.
 
 ## About Me
 
@@ -23,7 +23,7 @@ My interests sit at the intersection of **large language models**, **AI4Science*
 
 - Large Language Models
 - AI4Science
-- Bioinformatics
+- Embodied Intelligence (VLA)
 - Flight trajectory prediction
 - Spatiotemporal modeling
 - Efficient sequence modeling
