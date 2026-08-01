@@ -71,16 +71,40 @@
 (function(){
   var KSEM = {"id": "xu2026robust", "title": "Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition", "authors": [{"name": "Tao Xu", "highlighted": true}, {"name": "Ruiya Qi", "highlighted": false}, {"name": "Yuyi Zhang", "highlighted": false}], "conference": "In International Conference on Knowledge Science, Engineering and Management (KSEM 2026)", "year": 2026, "description": "A robust wind power forecasting framework combining adversarial state-space modeling with dynamic mode decomposition for accurate predictions.", "abstract": "Time series forecasting in renewable energy, particularly wind power prediction, is challenged by non-stationarity, distribution shifts, and complex temporal dependencies. We propose a hybrid forecasting framework that combines deep sequence modeling with adversarial learning and physics-inspired error correction. The model captures both short- and long-term dependencies, integrates contextual meteorological signals, and refines predictions through residual decomposition. Extensive experiments on wind power forecasting tasks demonstrate that our approach achieves significant improvements in RMSE and MAE over classical baselines, highlighting its effectiveness for real-world temporal sequence prediction.", "preview": "KSEM2026.png", "doi": "10.1007/978-981-92-2868-3_6", "doi_url": "https://doi.org/10.1007/978-981-92-2868-3_6", "pages": "73–82", "volume": "16637", "series": "Lecture Notes in Computer Science", "bibtex": "@inproceedings{xu2026robust,\n  title={Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition},\n  author={Xu, Tao and Qi, Ruiya and Zhang, Yuyi},\n  booktitle={International Conference on Knowledge Science, Engineering and Management (KSEM 2026)},\n  pages={73--82},\n  year={2026},\n  volume={16637},\n  series={Lecture Notes in Computer Science},\n  publisher={Springer},\n  doi={10.1007/978-981-92-2868-3_6}\n}"};
   
+  function findPubContainer() {
+    // Publications page: find heading "Publications" or "论文"
+    var h1s = document.querySelectorAll('h1');
+    for (var i = 0; i < h1s.length; i++) {
+      var text = h1s[i].textContent || '';
+      if (text.indexOf('Publications') >= 0 || text.indexOf('论文') >= 0) {
+        // The cards are in a .space-y-6 container after the heading
+        var parent = h1s[i].parentElement;
+        if (parent) {
+          var container = parent.querySelector('.space-y-6');
+          if (container) return container;
+        }
+        // Try next sibling approach
+        var section = h1s[i].closest('.max-w-4xl') || h1s[i].parentElement;
+        if (section) {
+          var c = section.querySelector('.space-y-6');
+          if (c) return c;
+        }
+      }
+    }
+    return null;
+  }
+  
   function injectPubKSEM() {
     if (document.getElementById('pub-xu2026robust-pub-injected')) return;
     
-    var container = document.querySelector('.space-y-6');
-    if (!container) { setTimeout(injectPubKSEM, 300); return; }
-    if (!container.querySelector('h3')) { setTimeout(injectPubKSEM, 300); return; }
+    var container = findPubContainer();
+    if (!container) { setTimeout(injectPubKSEM, 500); return; }
+    if (!container.querySelector('h3')) { setTimeout(injectPubKSEM, 500); return; }
     
     var authorsHtml = KSEM.authors.map(function(a) {
-      var cls = a.highlighted ? 'font-semibold text-accent' : '';
-      return '<span><span class="' + cls + '">' + a.name + '</span></span>';
+      return a.highlighted 
+        ? '<span><span class="font-semibold text-accent">' + a.name + '</span></span>'
+        : '<span><span>' + a.name + '</span></span>';
     }).join(', ');
     
     var card = document.createElement('div');
@@ -88,10 +112,10 @@
     card.className = 'bg-white dark:bg-neutral-900 p-6 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800 hover:shadow-md transition-all duration-200';
     card.style.opacity = '0';
     card.style.transform = 'translateY(20px)';
-    
-    card.innerHTML = '<div class="flex flex-col md:flex-row gap-6">' +
+    card.innerHTML = 
+      '<div class="flex flex-col md:flex-row gap-6">' +
       '<div class="w-full md:w-48 flex-shrink-0"><div class="aspect-video md:aspect-[4/3] relative rounded-lg overflow-hidden bg-neutral-100 dark:bg-neutral-800">' +
-      '<img alt="' + KSEM.title + '" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="/papers/' + KSEM.preview + '"/>' +
+      '<img alt="' + KSEM.title + '" loading="lazy" src="/papers/' + KSEM.preview + '" class="object-cover w-full h-full"/>' +
       '</div></div>' +
       '<div class="flex-grow">' +
       '<h3 class="text-xl font-semibold text-primary mb-2 leading-tight">' + KSEM.title + '</h3>' +
@@ -100,12 +124,11 @@
       '<p class="text-sm text-neutral-600 dark:text-neutral-500 mb-4 line-clamp-3">' + KSEM.description + '</p>' +
       '<div class="flex flex-wrap gap-2 mt-auto">' +
       '<a href="' + KSEM.doi_url + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors">DOI</a>' +
-      '<button class="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium transition-colors bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display===%27none%27?%27block%27:%27none%27"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-3 w-3 mr-1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"></path></svg>Abstract</button>' +
-      '<div style="display:none" class="absolute left-0 right-0 top-full mt-2 z-20 mx-4"><div class="bg-white dark:bg-neutral-900 p-4 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-800 text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed">' + KSEM.abstract + '</div></div>' +
-      '<button class="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium transition-colors bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white" onclick="alert(' + json.dumps(KSEM_DATA["bibtex"]) + ')"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-3 w-3 mr-1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"></path></svg>BibTeX</button>' +
+      '<button class="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium transition-colors bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white" onclick="var a=this.nextElementSibling;a.style.display=a.style.display===\'none\'?\'block\':\'none\'"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-3 w-3 mr-1.5\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z\"/></svg>Abstract</button>' +
+      '<div style="display:none" class="bg-white dark:bg-neutral-900 p-4 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-800 text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed mt-2">' + KSEM.abstract + '</div>' +
+      '<button class="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium transition-colors bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white" onclick="var bib=' + json.dumps(KSEM_DATA["bibtex"]) + ';alert(bib)"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-3 w-3 mr-1.5\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25\"/></svg>BibTeX</button>' +
       '</div></div></div>';
     
-    // Insert at BEGINNING (reverse chronological order)
     container.insertBefore(card, container.firstChild);
     
     setTimeout(function() {
@@ -115,14 +138,7 @@
     }, 100);
   }
   
-  var checkInterval = setInterval(function() {
-    var hiddenDiv = document.querySelector('[style*="visibility:hidden"]');
-    if (!hiddenDiv || hiddenDiv.style.visibility !== 'hidden') {
-      clearInterval(checkInterval);
-      setTimeout(injectPubKSEM, 200);
-    }
-  }, 200);
-  
-  setTimeout(function() { clearInterval(checkInterval); injectPubKSEM(); }, 5000);
+  var delays = [500, 1000, 2000, 4000];
+  delays.forEach(function(d) { setTimeout(injectPubKSEM, d); });
 })();
 </script></body></html>

@@ -72,16 +72,37 @@
 (function(){
   var KSEM = {"id": "xu2026robust", "title": "Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition", "authors": [{"name": "Tao Xu", "highlighted": true}, {"name": "Ruiya Qi", "highlighted": false}, {"name": "Yuyi Zhang", "highlighted": false}], "conference": "In International Conference on Knowledge Science, Engineering and Management (KSEM 2026)", "year": 2026, "description": "A robust wind power forecasting framework combining adversarial state-space modeling with dynamic mode decomposition for accurate predictions.", "abstract": "Time series forecasting in renewable energy, particularly wind power prediction, is challenged by non-stationarity, distribution shifts, and complex temporal dependencies. We propose a hybrid forecasting framework that combines deep sequence modeling with adversarial learning and physics-inspired error correction. The model captures both short- and long-term dependencies, integrates contextual meteorological signals, and refines predictions through residual decomposition. Extensive experiments on wind power forecasting tasks demonstrate that our approach achieves significant improvements in RMSE and MAE over classical baselines, highlighting its effectiveness for real-world temporal sequence prediction.", "preview": "KSEM2026.png", "doi": "10.1007/978-981-92-2868-3_6", "doi_url": "https://doi.org/10.1007/978-981-92-2868-3_6", "pages": "73–82", "volume": "16637", "series": "Lecture Notes in Computer Science", "bibtex": "@inproceedings{xu2026robust,\n  title={Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition},\n  author={Xu, Tao and Qi, Ruiya and Zhang, Yuyi},\n  booktitle={International Conference on Knowledge Science, Engineering and Management (KSEM 2026)},\n  pages={73--82},\n  year={2026},\n  volume={16637},\n  series={Lecture Notes in Computer Science},\n  publisher={Springer},\n  doi={10.1007/978-981-92-2868-3_6}\n}"};
   
+  function findPubContainer() {
+    // Find heading containing "Selected Publications" or "精选论文"
+    var headings = document.querySelectorAll('h2');
+    for (var i = 0; i < headings.length; i++) {
+      var text = headings[i].textContent || '';
+      if (text.indexOf('Selected Publications') >= 0 || text.indexOf('精选论文') >= 0) {
+        // The publications container is the next sibling div
+        var next = headings[i].nextElementSibling;
+        if (next) return next;
+        // Or it might be a parent's child
+        var parent = headings[i].parentElement;
+        if (parent) {
+          var divs = parent.querySelectorAll('.space-y-4');
+          if (divs.length > 0) return divs[0];
+        }
+      }
+    }
+    return null;
+  }
+  
   function injectKSEM() {
     if (document.getElementById('pub-xu2026robust-injected')) return;
     
-    var container = document.querySelector('#about .space-y-4') || document.querySelector('.space-y-4');
-    if (!container) { setTimeout(injectKSEM, 300); return; }
-    if (!container.querySelector('h3')) { setTimeout(injectKSEM, 300); return; }
+    var container = findPubContainer();
+    if (!container) { setTimeout(injectKSEM, 500); return; }
+    if (!container.querySelector('h3')) { setTimeout(injectKSEM, 500); return; }
     
     var authorsHtml = KSEM.authors.map(function(a) {
-      var cls = a.highlighted ? 'font-semibold text-accent' : '';
-      return '<span><span class="' + cls + '">' + a.name + '</span></span>';
+      return a.highlighted 
+        ? '<span><span class="font-semibold text-accent">' + a.name + '</span></span>'
+        : '<span><span>' + a.name + '</span></span>';
     }).join(', ');
     
     var card = document.createElement('div');
@@ -89,13 +110,11 @@
     card.className = 'bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]';
     card.style.opacity = '0';
     card.style.transform = 'translateY(20px)';
-    
     card.innerHTML = '<h3 class="font-semibold text-primary mb-2 leading-tight">' + KSEM.title + '</h3>' +
       '<p class="text-sm text-neutral-600 dark:text-neutral-500 mb-1">' + authorsHtml + '</p>' +
       '<p class="text-sm text-neutral-600 dark:text-neutral-500 mb-2">' + KSEM.conference + '</p>' +
       '<p class="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">' + KSEM.description + '</p>';
     
-    // Insert at BEGINNING (reverse chronological order)
     container.insertBefore(card, container.firstChild);
     
     setTimeout(function() {
@@ -105,14 +124,8 @@
     }, 100);
   }
   
-  var checkInterval = setInterval(function() {
-    var hiddenDiv = document.querySelector('[style*="visibility:hidden"]');
-    if (!hiddenDiv || hiddenDiv.style.visibility !== 'hidden') {
-      clearInterval(checkInterval);
-      setTimeout(injectKSEM, 200);
-    }
-  }, 200);
-  
-  setTimeout(function() { clearInterval(checkInterval); injectKSEM(); }, 5000);
+  // Try multiple times with increasing delays
+  var delays = [500, 1000, 2000, 4000];
+  delays.forEach(function(d) { setTimeout(injectKSEM, d); });
 })();
 </script></body></html>
