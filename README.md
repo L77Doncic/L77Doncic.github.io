@@ -81,15 +81,6 @@ I'm an undergraduate student in **Computer Science and Technology** at **Sichuan
 
 </div>
 
-<!-- 贡献图贪吃蛇动画（可选）：推送 .github/workflows/snake.yml 并运行一次后，
-     在此处添加以下代码即可显示：
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/L77Doncic/L77Doncic.github.io/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/L77Doncic/L77Doncic.github.io/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/L77Doncic/L77Doncic.github.io/output/github-snake.svg" />
-</picture>
--->
-
 ---
 
 <div align="center">
