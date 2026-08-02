@@ -166,6 +166,21 @@ export default function RootLayout({
             __html: buildLocaleBootstrapScript(runtimeI18n),
           }}
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(){
+                // Fallback: reveal the server-rendered content if hydration has
+                // not completed within 3s (slow network, JS failure, etc.).
+                var t = setTimeout(function() {
+                  var d = document.querySelector('[style*="visibility:hidden"]');
+                  if (d) { d.style.visibility = 'visible'; d.style.opacity = '1'; }
+                }, 3000);
+                window.addEventListener('load', function() { clearTimeout(t); });
+              })();
+            `,
+          }}
+        />
       </head>
       <body className="font-sans antialiased">
         <ThemeProvider>
