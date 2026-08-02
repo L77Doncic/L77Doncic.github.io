@@ -8,7 +8,9 @@
 >
 > **构建部署流程**：修改 `content/`（站点内容）、`public/`、`src/` 后 → `npm install`（首次）→ `npm run build`（静态导出到 `out/`）→ 把 `out/` 内容复制到仓库根目录覆盖旧构建产物 → `git push origin main` 自动部署。
 >
-> ⚠️ 仓库根目录是**构建产物**（GitHub Pages 直接部署它），改完源码必须重新构建并复制产物到根目录，线上才会变化。当前构建产物里的 KSEM 论文是通过 post-hydration DOM 注入脚本添加的（各页面尾部 `<script>`），后续建议把论文数据正式写进 `content/publications.bib` / `content/publications.toml`，不再依赖注入脚本。
+> ⚠️ 仓库根目录是**构建产物**（GitHub Pages 直接部署它），改完源码必须重新构建并复制产物到根目录，线上才会变化。
+>
+> 现有站点内容（Tao Xu 个人信息、3 篇论文含 KSEM、奖项、服务、中英文 CV、新闻）已全部回填到 `content/` 与 `content_zh/`。注意：仓库根构建产物里 KSEM 卡片仍由 post-hydration DOM 注入脚本添加（各页面尾部 `<script>`），以源码重新构建并复制产物后，注入脚本将被正式的 content 渲染取代，可不再需要。
 >
 > 同步上游模板更新需手动：`git clone https://github.com/xyjoey/PRISM.git` 后对比复制（注意别覆盖已个性化的 `content/`、`content_zh/`、`public/`）。
 

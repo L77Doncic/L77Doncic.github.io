@@ -4,6 +4,42 @@ description = "Professional services and community involvement."
 
 [[items]]
 title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+subtitle = "IJCNN"
+date = "2026"
+content = "Reviewed papers for the International Joint Conference on Neural Networks."
+
+[[items]]
+title = "Vice President"
+subtitle = "Baidu PaddlePaddle Leading Group – Sichuan University"
+date = "2025 - 2026"
+content = "Spearheaded publicity campaigns to promote deep learning framework PaddlePaddle technologies on campus."
+
+[[items]]
+title = "Club Minister"
+subtitle = "SCU Maker – Sichuan University"
+date = "2024 - 2025"
+content = "Ranked first among Chengdu’s top 100 student clubs; oversaw project collection and management, as well as gathering information on computer-related competitions."
+
+[[items]]
+title = "Club Minister"
+subtitle = "Feiyang Club – Sichuan University"
+date = "2024 - 2026"
+content = "Led the club to become one of the Top Ten Public Welfare Clubs on Campus; managed official website development and financial operations; mentored new members on coding practices and standardized development workflows."
+
+[[items]]
+title = "Computer Repair Technician"
+subtitle = "Feiyang Club, Sichuan University"
+date = "2023 - Present"
+content = "Provided hardware and software troubleshooting, repair, and maintenance services for university students and staff."
+
+[[items]]
+title = "Volunteer"
+subtitle = "Sichuan Disaster Prevention and Reduction Education Center"
+date = "2025"
+content = "Assisted in public education and guided visitors on disaster prevention and mitigation knowledge."
+
+[[items]]
+title = "Member"
+subtitle = "\"May Fourth Red Flag\" Youth League Branch"
+date = "2023"
+content = "Actively participated in branch activities and youth volunteer construction."

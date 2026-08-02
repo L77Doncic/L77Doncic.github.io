@@ -1,19 +1,25 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "许涛"
+description = "四川大学本科生。"
+last_updated = "2026年5月25日"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "许涛"
+title = "本科生"
+institution = "四川大学"
+avatar = "/bio.jpg"
 
 [social]
-location = "城市，国家"
+email = "summer_xt17@163.com"
+location = "成都，中国"
+location_url = "https://www.google.com/maps/place/Sichuan+University+Jiang'an+Campus+%EF%BC%88North+Gate%EF%BC%89/@30.5628145,103.9918239,17z/data=!4m6!3m5!1s0x36efc13bad07ff69:0xe4ab49017832f663!8m2!3d30.562213!4d103.992544!16s%2Fg%2F11cm1lgcz8?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
 location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
+  "川大路2号，",
+  "双流区，成都，中国"
 ]
+google_scholar = "https://scholar.google.com/citations?user=cnf2xiQAAAAJ&hl=en"
+orcid = "https://orcid.org/my-orcid?orcid=0009-0009-2462-9819"
+github = "https://github.com/L77Doncic"
 
 [[navigation]]
 title = "关于我"
@@ -26,12 +32,6 @@ title = "论文"
 type = "page"
 target = "publications"
 href = "/publications"
-
-[[navigation]]
-title = "教学"
-type = "page"
-target = "teaching"
-href = "/teaching"
 
 [[navigation]]
 title = "奖项"

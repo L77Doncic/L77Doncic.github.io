@@ -1,27 +1,51 @@
 type = "card"
 title = "Awards"
-description = "Honors and awards I have received."
+description = "Awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
+title = "Provincial 2nd Prize"
+subtitle = "The 19th China Collegiate Computer Design Competition"
+date = "May 2026"
+content = ""
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
+title = "Honorable Mention"
+subtitle = "Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)"
+date = "May 2026"
+content = ""
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
+title = "National 3rd Prize"
+subtitle = "Huawei ICT Competition"
+date = "Apr 2026"
+content = ""
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "National 3rd Prize"
+subtitle = "The 18th China Collegiate Computer Design Competition"
+date = "Aug 2025"
+content = ""
+
+[[items]]
+title = "National 2nd Prize"
+subtitle = "The 10th International Conference on Communication and Information Processing (ICCIP)"
+date = "Nov 2024"
+content = ""
+
+[[items]]
+title = "People’s Choice Award"
+subtitle = "The 9th Shanghai Library Open Data Competition"
+date = "Oct 2024"
+content = ""
+
+[[items]]
+title = "Provincial 1st Prize"
+subtitle = "2024 National Undergraduate IoT Design Contest (Huawei Cup)"
+date = "Aug 2024"
+content = ""
+
+[[items]]
+title = "National 2nd Prize"
+subtitle = "Undergraduate Electronic Design Contest - 2024 Embedded System Design Invitational Contest (Intel Cup)"
+date = "July 2024"
+content = ""

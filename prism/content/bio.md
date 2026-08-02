@@ -1,5 +1,3 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am an undergraduate student at the School of Computer Science, Sichuan University.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
-
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My current research interests focus on the theory and cross-application of fundamental AI models, with a particular emphasis on large language models, multimodal generation and understanding, embodied intelligence (VLA), the adaptation and optimization of domain-specific large models, cutting-edge paradigms, and core problems in AI4Science.

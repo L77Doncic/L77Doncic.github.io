@@ -1,27 +1,51 @@
 type = "card"
 title = "奖项"
-description = "我获得的荣誉与奖项。"
+description = "我所获得的比赛奖项。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2025"
-content = "奖项说明。"
+title = "省级二等奖"
+subtitle = "第十九届中国大学生计算机设计大赛"
+date = "2026年5月"
+content = ""
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2024"
-content = "奖项说明。"
+title = "H奖"
+subtitle = "美国大学生数学建模竞赛（MCM/ICM）"
+date = "2026年5月"
+content = ""
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2023"
-content = "奖项说明。"
+title = "全国三等奖"
+subtitle = "华为ICT大赛"
+date = "2026年4月"
+content = ""
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2022"
-content = "奖项说明。"
+title = "全国三等奖"
+subtitle = "第十八届中国大学生计算机设计大赛"
+date = "2025年8月"
+content = ""
+
+[[items]]
+title = "全国二等奖"
+subtitle = "第十届通信与信息处理国际会议 (ICCIP)"
+date = "2024年11月"
+content = ""
+
+[[items]]
+title = "人气奖"
+subtitle = "第九届上海图书馆开放数据竞赛"
+date = "2024年10月"
+content = ""
+
+[[items]]
+title = "省级一等奖"
+subtitle = "2024年全国大学生物联网设计竞赛（华为杯）"
+date = "2024年8月"
+content = ""
+
+[[items]]
+title = "全国二等奖"
+subtitle = "全国大学生电子设计竞赛 - 2024年嵌入式系统专题邀请赛（英特尔杯）"
+date = "2024年7月"
+content = ""

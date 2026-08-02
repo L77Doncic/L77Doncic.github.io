@@ -1,33 +1,32 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
-favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+title = "Tao Xu"
+description = "Undergraduate student at Sichuan University."
+favicon = "/favicon.png"
+last_updated = "May 25, 2026"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
+name = "Tao Xu"
+title = "Undergraduate"
+institution = "Sichuan University"
 avatar = "/bio.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
+email = "summer_xt17@163.com"
+location = "Chengdu, China"
+location_url = "https://www.google.com/maps/place/Sichuan+University+Jiang'an+Campus+%EF%BC%88North+Gate%EF%BC%89/@30.5628145,103.9918239,17z/data=!4m6!3m5!1s0x36efc13bad07ff69:0xe4ab49017832f663!8m2!3d30.562213!4d103.992544!16s%2Fg%2F11cm1lgcz8?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "No. 2, Chuanda Road, Science Building,",
+  "Shuangliu District, Chengdu, China"
 ]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+google_scholar = "https://scholar.google.com/citations?user=cnf2xiQAAAAJ&hl=en"
+orcid = "https://orcid.org/my-orcid?orcid=0009-0009-2462-9819"
+github = "https://github.com/L77Doncic"
 
 [features]
 # Show a like button on the about page
-enable_likes = true
+enable_likes = false
 
 # Display all subpages on a single page
 enable_one_page_mode = false
@@ -59,12 +58,6 @@ title = "Publications"
 type = "page"
 target = "publications"
 href = "/publications"
-
-[[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
 
 [[navigation]]
 title = "Awards"
