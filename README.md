@@ -75,7 +75,11 @@ I'm an undergraduate student in **Computer Science and Technology** at **Sichuan
 
 </div>
 
+<div align="center">
+
 <img src="https://trophy.benkou.dev/?username=L77Doncic&theme=onestar&no-frame=true&row=2&column=4" alt="GitHub trophies" />
+
+</div>
 
 <!-- 贡献图贪吃蛇动画（可选）：推送 .github/workflows/snake.yml 并运行一次后，
      在此处添加以下代码即可显示：
