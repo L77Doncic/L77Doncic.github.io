@@ -70,12 +70,12 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=L77Doncic&show_icons=true&theme=transparent&hide_border=true&title_color=2563eb&icon_color=7c3aed&text_color=334155" alt="GitHub stats" height="180" />
+<img src="https://github-readme-stats.shion.dev/api?username=L77Doncic&show_icons=true&theme=transparent&hide_border=true&title_color=2563eb&icon_color=7c3aed&text_color=334155" alt="GitHub stats" height="180" />
 <img src="https://streak-stats.demolab.com/?user=L77Doncic&theme=transparent&hide_border=true&ring=2563eb&fire=7c3aed&currStreakNum=334155" alt="GitHub streak" height="180" />
 
 </div>
 
-<img src="https://github-profile-trophy.vercel.app/?username=L77Doncic&theme=onestar&no-frame=true&row=2&column=4" alt="GitHub trophies" />
+<img src="https://trophy.benkou.dev/?username=L77Doncic&theme=onestar&no-frame=true&row=2&column=4" alt="GitHub trophies" />
 
 <!-- 贡献图贪吃蛇动画（可选）：推送 .github/workflows/snake.yml 并运行一次后，
      在此处添加以下代码即可显示：
