@@ -25,6 +25,29 @@ GitHub Pages 部署的个人学术主页（https://l77doncic.github.io/）。**�
 | `/services` | `content/services.toml` | `content_zh/services.toml` |
 | `/cv` | `content/cv.toml` + `cv.md` | `content_zh/cv.toml` + `cv.md` |
 
+## 🧩 模块体系（三层：页面 / 区块 / 内容项）
+
+整个站点是**内容驱动**的，改内容不用碰代码；只有要新增"页面类型"或"区块类型"时才需要改 `src/`。
+
+**第一层：页面**（由 `config.toml` 的 `[[navigation]]` 决定哪些页面出现在导航，内容在 `content/<slug>.toml`）。页面 `type` 支持 4 种（见 `src/types/page.ts`）：
+
+| type | 作用 | 内容来源 |
+|---|---|---|
+| `about` | 首页（唯一的，slug=about 配 `/`） | 见"第二层：区块" |
+| `publication` | 论文列表页 | `publications.toml` 的 `source` 指向的 `.bib` |
+| `text` | 自由文本页（如 CV） | 配同目录 `<slug>.md` |
+| `card` | 卡片列表页（如奖项/服务） | toml 里的 `[[items]]` |
+
+**第二层：区块**（仅首页 `about.toml` 的 `[[sections]]`，控制首页展示哪些区域、顺序）。区块 `type` 支持 3 种（见 `src/app/page.tsx` / `HomePageClient.tsx`）：
+
+| type | 作用 | 内容来源 |
+|---|---|---|
+| `markdown` | 文本段落（如 About） | `source` 指向的 `.md` |
+| `publications` | 精选论文列表 | `filter = "selected"` 时只显示 bib 里 `selected={true}` 的论文，`limit` 控制条数 |
+| `list` | 列表区块（如 News） | `source` 指向的 `.toml`（`[[news]]` 条目） |
+
+**第三层：内容项**：`awards.toml`/`services.toml` 的 `[[items]]`、`news.toml` 的 `[[news]]`、`publications.bib` 的每条 `@xxx{}` 条目。
+
 ## ⚠️ 铁律（血泪教训）
 
 1. **绝对不要手改仓库根的构建产物**（`index.html`、`_next/`、各子页 HTML）。
@@ -117,11 +140,30 @@ content = "We won National 3rd Prize in the Huawei ICT Competition 🎉"
 - 论文封面：`prism/public/papers/<文件名>`（bib 里 `preview` 对应）
 - favicon：`prism/public/favicon.png`（config 里 `favicon`）
 
-## 加新页面（如 Teaching）
+## 添加 / 删除 / 修改模块
 
-1. 建 `content/<slug>.toml`（type 可以是 `card`/`text`/`publication`/`about`，text 配 `<slug>.md`）和 `content_zh/<slug>.toml`
+### 添加模块
+
+**加内容项**（最常见）：在对应 toml/bib 里加一条即可（奖项加 `[[items]]`、新闻加 `[[news]]`、论文在 bib 加 `@xxx` 条目、CV 在 md 加段落），中英文两份同步改。
+
+**加首页区块**：`about.toml`（和 `content_zh/about.toml`）的 `[[sections]]` 加一项，按需要选 `markdown`/`publications`/`list` 类型，配好 `source`/`filter`/`limit`。例如加一个"课程"列表区块：建 `content/courses.toml`（`[[items]]` 格式），sections 里加 `{ id = "courses", type = "list", title = "Courses", source = "courses.toml" }`。
+
+**加新页面**（如 Teaching）：
+1. 建 `content/<slug>.toml`（type = `card`/`text`/`publication`；text 类型配 `<slug>.md`，card 类型配 `[[items]]`）和 `content_zh/<slug>.toml`
 2. `config.toml` + `content_zh/config.toml` 的 `[[navigation]]` 加一项
 3. 重新构建部署
+
+**加页面类型/区块类型**（需要写代码）：改 `src/types/page.ts`、`src/app/[slug]/page.tsx`（或 `HomePageClient.tsx`）和对应组件（`src/components/pages/`、`src/components/home/`）。参考现有类型实现，保持内容驱动的模式。
+
+### 删除模块
+
+- **删内容项**：删除对应 toml/bib/md 里的条目即可（中英文两份都删）。
+- **删首页区块**：把 `about.toml`（及 content_zh）`[[sections]]` 里对应的一项整体删掉；该区块引用的源文件（如 `news.toml`）如不再被任何区块使用也可删除。
+- **删整页**：1) 从 `config.toml` + `content_zh/config.toml` 的 `[[navigation]]` 删除对应项；2) 删除 `content/<slug>.toml` + `content_zh/<slug>.toml`（及配套 md/toml/bib 源文件）。删除后该 URL 会 404。
+
+### 修改模块
+
+改对应文件内容即可（见上文"怎么改内容"）；改动标题/描述/顺序（条目顺序 = 显示顺序）都直接改文件。
 
 ## 技术机制（排查问题时参考）
 
