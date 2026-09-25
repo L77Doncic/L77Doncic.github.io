@@ -4,10 +4,9 @@ title = "About"
 [profile]
 research_interests = [
   "LLM",
-  "Multimodal Generation and Understanding",
-  "AI4Science",
-  "Embodied Intelligence (VLA)",
-  "World Model"
+  "AI Safety",
+  "AI4SE (AI for Software Engineering)",
+  "Software Security"
 ]
 
 [[sections]]

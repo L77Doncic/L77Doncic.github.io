@@ -7,7 +7,7 @@
 
 **语言 / Language**: [中文](README_zh.md) | [English](README.md)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=2563EB&center=true&vCenter=true&width=700&lines=四川大学计算机科学与技术本科生;LLM+%26+AI4Science+研究者;具身智能+%28VLA%29+探索者;学科竞赛获奖者;构建智能系统" alt="typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=2563EB&center=true&vCenter=true&width=700&lines=南京大学准博士生;LLM+%26+AI4SE+研究者;AI+安全探索者;学科竞赛获奖者;构建可信智能系统" alt="typing animation" />
 
 [![个人主页](https://img.shields.io/badge/个人主页-l77doncic.github.io-2563eb?style=flat-square&logo=vercel&logoColor=white)](https://l77doncic.github.io/)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Tao%20Xu-4285f4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=cnf2xiQAAAAJ&hl=en)
@@ -15,7 +15,7 @@
 [![邮箱](https://img.shields.io/badge/邮箱-summer__xt17%40163.com-22c55e?style=flat-square&logo=gmail&logoColor=white)](mailto:summer_xt17@163.com)
 [![GitHub](https://img.shields.io/badge/GitHub-L77Doncic-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/L77Doncic)
 
-我是四川大学计算机学院本科生，主修计算机科学与技术，关注 **大语言模型**、**AI4Science** 与 **具身智能（VLA）** 的交叉方向。我喜欢把研究问题拆成可以建模、实现和迭代的工程系统，也享受从真实需求里挖出值得探索的问题。
+我是四川大学计算机学院本科生，已被**南京大学**录取，将直接攻读博士学位，导师为[吕骏老师](https://meiye-lj.github.io/)和[张贺老师](https://softeng.nju.edu.cn/faculty/HeZhang/)。我的研究关注**大语言模型**、**AI 安全**与**面向软件工程的 AI（AI4SE）**。我喜欢把研究问题拆成可以建模、实现和迭代的工程系统，也享受从真实需求里挖出值得探索的问题。
 
 </div>
 
@@ -23,11 +23,10 @@
 
 ## 🔬 研究兴趣
 
-- **大语言模型** — 基础模型、领域专用大模型的适配与优化
-- **AI4Science** — 机器学习驱动的科学发现
-- **具身智能（VLA）** — 视觉-语言-动作一体化的智能体
-- **飞行轨迹预测** — 时空建模、高效序列建模（Mamba）
-- **风电功率预测** — 状态空间建模、动态模式分解
+- **大语言模型** — 基础模型及其在下游问题中的适配
+- **AI 安全** — AI 系统的可信性、可靠性与安全性
+- **AI4SE（面向软件工程的 AI）** — 大模型在代码、测试与软件流程中的应用
+- **软件安全** — 构建安全可靠的软件系统
 
 ## 📄 代表论文
 
@@ -45,6 +44,7 @@
 
 ## 📰 近期动态
 
+- **2026 年 9 月**：成功被**南京大学**录取，将直接攻读博士学位（导师：吕骏、张贺）🎉
 - **2026 年 5 月**：第十九届中国大学生计算机设计大赛省级二等奖
 - **2026 年 5 月**：美国大学生数学建模竞赛（MCM/ICM）H 奖
 - **2026 年 4 月**：华为 ICT 大赛全国三等奖
@@ -87,7 +87,7 @@
 
 **🌐 访问我的个人主页: [l77doncic.github.io](https://l77doncic.github.io/)**
 
-<sub>更新于 2026-08</sub>
+<sub>更新于 2026-09</sub>
 
 </div>
 

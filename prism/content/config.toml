@@ -1,13 +1,13 @@
 [site]
 title = "Tao Xu"
-description = "Undergraduate student at Sichuan University."
+description = "Undergraduate at Sichuan University; incoming Ph.D. student at Nanjing University."
 favicon = "/favicon.png"
-last_updated = "May 25, 2026"
+last_updated = "September 25, 2026"
 
 [author]
 name = "Tao Xu"
-title = "Undergraduate"
-institution = "Sichuan University"
+title = "Incoming Ph.D. Student"
+institution = "Nanjing University"
 avatar = "/bio.jpg"
 
 [social]

@@ -4,10 +4,9 @@ title = "关于我"
 [profile]
 research_interests = [
   "LLM",
-  "多模态生成与理解",
-  "AI4Science",
-  "具身智能（VLA）",
-  "世界模型"
+  "AI 安全",
+  "AI4SE（面向软件工程的 AI）",
+  "软件安全"
 ]
 
 [[sections]]

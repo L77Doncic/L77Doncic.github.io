@@ -7,7 +7,7 @@
 
 **Language / 语言**: [English](README.md) | [中文](README_zh.md)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=2563EB&center=true&vCenter=true&width=700&lines=Undergraduate+at+Sichuan+University;LLM+%26+AI4Science+Researcher;Embodied+Intelligence+(VLA)+Explorer;Competition+Award+Winner;Building+Intelligent+Systems" alt="typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=2563EB&center=true&vCenter=true&width=700&lines=Incoming+Ph.D.+Student+at+Nanjing+University;LLM+%26+AI4SE+Researcher;AI+Safety+Explorer;Competition+Award+Winner;Building+Trustworthy+AI+Systems" alt="typing animation" />
 
 [![Website](https://img.shields.io/badge/Website-l77doncic.github.io-2563eb?style=flat-square&logo=vercel&logoColor=white)](https://l77doncic.github.io/)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Tao%20Xu-4285f4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=cnf2xiQAAAAJ&hl=en)
@@ -15,7 +15,7 @@
 [![Email](https://img.shields.io/badge/Email-summer__xt17%40163.com-22c55e?style=flat-square&logo=gmail&logoColor=white)](mailto:summer_xt17@163.com)
 [![GitHub](https://img.shields.io/badge/GitHub-L77Doncic-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/L77Doncic)
 
-I'm an undergraduate student in **Computer Science and Technology** at **Sichuan University**, working at the intersection of **large language models**, **AI4Science**, and **embodied intelligence (VLA)**. I enjoy turning research questions into systems that can be modeled, implemented, and improved — and I'm always looking for meaningful problems from real-world needs.
+I'm an undergraduate student in **Computer Science and Technology** at **Sichuan University**, and I have been admitted to **Nanjing University** as a direct Ph.D. student, advised by [Prof. Jun Lyu](https://meiye-lj.github.io/) and [Prof. He Zhang](https://softeng.nju.edu.cn/faculty/HeZhang/). My research focuses on **large language models**, **AI safety**, and **AI for Software Engineering (AI4SE)**. I enjoy turning research questions into systems that can be modeled, implemented, and improved — and I'm always looking for meaningful problems from real-world needs.
 
 </div>
 
@@ -23,11 +23,10 @@ I'm an undergraduate student in **Computer Science and Technology** at **Sichuan
 
 ## 🔬 Research Interests
 
-- **Large Language Models** — foundation models, adaptation and optimization of domain-specific LLMs
-- **AI4Science** — machine learning for scientific discovery
-- **Embodied Intelligence (VLA)** — vision-language-action for embodied agents
-- **Flight trajectory prediction** — spatiotemporal modeling, efficient sequence modeling (Mamba)
-- **Wind power forecasting** — state-space modeling, dynamic mode decomposition
+- **Large Language Models** — foundation models and their adaptation to downstream problems
+- **AI Safety** — trustworthiness, reliability, and security of AI systems
+- **AI4SE (AI for Software Engineering)** — LLMs for code, testing, and software processes
+- **Software Security** — building secure and reliable software systems
 
 ## 📄 Selected Publications
 
@@ -45,6 +44,7 @@ I'm an undergraduate student in **Computer Science and Technology** at **Sichuan
 
 ## 📰 Recent News
 
+- **Sep 2026**: Admitted to **Nanjing University** as a direct Ph.D. student, advised by Prof. Jun Lyu and Prof. He Zhang 🎉
 - **May 2026**: Provincial 2nd Prize, The 19th China Collegiate Computer Design Competition
 - **May 2026**: Honorable Mention, MCM/ICM
 - **Apr 2026**: National 3rd Prize, Huawei ICT Competition
@@ -87,7 +87,7 @@ I'm an undergraduate student in **Computer Science and Technology** at **Sichuan
 
 **🌐 Visit my personal website: [l77doncic.github.io](https://l77doncic.github.io/)**
 
-<sub>Last updated: 2026-08</sub>
+<sub>Last updated: 2026-09</sub>
 
 </div>
 

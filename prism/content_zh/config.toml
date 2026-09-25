@@ -1,12 +1,12 @@
 [site]
 title = "许涛"
-description = "四川大学本科生。"
-last_updated = "2026年5月25日"
+description = "四川大学本科生，即将赴南京大学直接攻读博士学位。"
+last_updated = "2026年9月25日"
 
 [author]
 name = "许涛"
-title = "本科生"
-institution = "四川大学"
+title = "准博士生"
+institution = "南京大学"
 avatar = "/bio.jpg"
 
 [social]
