@@ -87,7 +87,7 @@ I'm an undergraduate student in **Computer Science and Technology** at **Sichuan
 
 **🌐 Visit my personal website: [l77doncic.github.io](https://l77doncic.github.io/)**
 
-<sub>Last updated: 2026-09</sub>
+<sub>Last updated: 2026-10</sub>
 
 </div>
 
