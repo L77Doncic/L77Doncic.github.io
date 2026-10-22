@@ -57,199 +57,201 @@ f:I[4911,[],"AsyncMetadataOutlet"]
       root.lang = 'en';
       root.setAttribute('data-locale', 'en');
     }
-  0:{"P":null,"b":"qaWqq0caFR9pqccPIgslW","p":"","c":["","cv",""],"i":false,"f":[[["",{"children":[["slug","cv","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/16ac18946ecf734d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.png","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"font","type":"font/woff2","href":"https://jialeliu.com/fonts/georgiab.woff2","crossOrigin":""}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                // Fallback: reveal the server-rendered content if hydration has\n                // not completed within 3s (slow network, JS failure, etc.).\n                var t = setTimeout(function() {\n                  var d = document.querySelector('[style*=\"visibility:hidden\"]');\n                  if (d) { d.style.visibility = 'visible'; d.style.opacity = '1'; }\n                }, 3000);\n                window.addEventListener('load', function() { clearTimeout(t); });\n              })();\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"config":{"enabled":true,"locales":["zh","en"],"defaultLocale":"en","mode":"auto","fixedLocale":"en","persist":true,"switcher":true,"labels":{"zh":"中文","en":"English"}},"children":[["$","$L5",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"CV","type":"page","target":"cv","href":"/cv"}],"siteTitle":"Tao Xu","enableOnePageMode":false,"i18n":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:props:config","itemsByLocale":{"zh":[{"title":"关于我","type":"page","target":"about","href":"/"},{"title":"论文","type":"page","target":"publications","href":"/publications"},{"title":"奖项","type":"page","target":"awards","href":"/awards"},{"title":"服务","type":"page","target":"services","href":"/services"},{"title":"简历","type":"page","target":"cv","href":"/cv"}],"en":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"CV","type":"page","target":"cv","href":"/cv"}]},"siteTitleByLocale":{"zh":"许涛","en":"Tao Xu"}}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L8",null,{"lastUpdated":"September 25, 2026","lastUpdatedByLocale":{"zh":"2026年9月25日","en":"September 25, 2026"},"defaultLocale":"en"}]]}]}]}]]}]]}],{"children":[["slug","cv","d"],["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L9",["$","$La",null,{"children":"$Lb"}],null,["$","$Lc",null,{"children":["$Ld","$Le",["$","$Lf",null,{"promise":"$@10"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","cOY-hOzQd_745apjwoVRo",{"children":[["$","$L11",null,{"children":"$L12"}],null]}],null]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
+  0:{"P":null,"b":"H2qj0fK0cs3oDw7NuPNfw","p":"","c":["","cv",""],"i":false,"f":[[["",{"children":[["slug","cv","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/16ac18946ecf734d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.png","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"font","type":"font/woff2","href":"https://jialeliu.com/fonts/georgiab.woff2","crossOrigin":""}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                // Fallback: reveal the server-rendered content if hydration has\n                // not completed within 3s (slow network, JS failure, etc.).\n                var t = setTimeout(function() {\n                  var d = document.querySelector('[style*=\"visibility:hidden\"]');\n                  if (d) { d.style.visibility = 'visible'; d.style.opacity = '1'; }\n                }, 3000);\n                window.addEventListener('load', function() { clearTimeout(t); });\n              })();\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"config":{"enabled":true,"locales":["zh","en"],"defaultLocale":"en","mode":"auto","fixedLocale":"en","persist":true,"switcher":true,"labels":{"zh":"中文","en":"English"}},"children":[["$","$L5",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"CV","type":"page","target":"cv","href":"/cv"}],"siteTitle":"Tao Xu","enableOnePageMode":false,"i18n":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:props:config","itemsByLocale":{"zh":[{"title":"关于我","type":"page","target":"about","href":"/"},{"title":"论文","type":"page","target":"publications","href":"/publications"},{"title":"奖项","type":"page","target":"awards","href":"/awards"},{"title":"服务","type":"page","target":"services","href":"/services"},{"title":"简历","type":"page","target":"cv","href":"/cv"}],"en":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"CV","type":"page","target":"cv","href":"/cv"}]},"siteTitleByLocale":{"zh":"许涛","en":"Tao Xu"}}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L8",null,{"lastUpdated":"September 25, 2026","lastUpdatedByLocale":{"zh":"2026年9月25日","en":"September 25, 2026"},"defaultLocale":"en"}]]}]}]}]]}]]}],{"children":[["slug","cv","d"],["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L9",["$","$La",null,{"children":"$Lb"}],null,["$","$Lc",null,{"children":["$Ld","$Le",["$","$Lf",null,{"promise":"$@10"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","LMlYul-D2R4Nf6VDiAcUi",{"children":[["$","$L11",null,{"children":"$L12"}],null]}],null]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
 14:"$Sreact.suspense"
 15:I[4911,[],"AsyncMetadata"]
 17:I[2382,["461","static/chunks/461-a9a5d7b05a71d978.js","178","static/chunks/178-595a94b9af1e67b5.js","748","static/chunks/748-84df502d24ed20fb.js","182","static/chunks/app/%5Bslug%5D/page-1c782e96265ff7b8.js"],"default"]
 b:["$","$14",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]
-18:T1204,## 教育背景
+18:T177a,## 教育背景
 
-**四川大学**，计算机科学与技术，工学学士 – 中国成都，*2023年9月 - 至今*
-- GPA: 3.64/4.0，专业排名 13/323
-- 四川大学优秀学生，2025年
-- 国家励志奖学金，2024年与2025年
-- 计算机学院综合二等奖学金，2025年
-- 计算机学院综合三等奖学金，2024年
-- 灾后重建与管理学院综合二等奖学金，2024年
-- “五四红旗”团支部成员
+**四川大学**，计算机学院 计算机科学与技术，工学学士 – 中国成都，*2023.09 - 至今*
+- 综合成绩排名：27/319（前 8.5%）；必修加权平均分：87.43；GPA：3.64/4.0
+- 核心课程：操作系统（91）、高级语言程序设计-Ⅱ（91）、机器学习引论（92）、多模态学习导论（91）、机器学习（97）等
+- 英语成绩：CET-6（562）
+- 校园经历：生活兼心理委员、团委副书记、百度飞桨领航团副主席、"五四红旗"团支部成员
 
-## 实习与工作经验
+## 科研经历
 
-**实习生**
-百度
-*2025年8月 - 2026年3月*
-- 企业级AI模型应用开发，负责大小模型项目测试与修复，应用飞桨及文心开发套件完成模型调参等。
+### 论文
 
-**软件工程师**
-成都亚利欣科技有限公司 – 成都
-*2025年2月 - 2025年9月*
-- 负责软件子系统及平台环境的开发与日常维护。
+**Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition**  
+*Xu, T., Qi, R., & Zhang, Y. — KSEM 2026, pp. 73–82（CCF-C，Oral）*
+- 现有风电预测多为经验回归，数据源单一、长时误差累积严重。本文提出 ResNet-Mamba 多任务框架，融合历史风电与气象数据挖掘特征，并采用 DMD 修正预测误差，显著提升了短期和长期预测精度。
+- **个人贡献：** 主导整体方案设计与模型研发，完成实验搭建、结果验证及性能分析；设计并实现融合 ResNet、Mamba 与 DMD 的风电功率预测框架；负责论文撰写与修改。
 
-**副主席**
-百度飞桨领航团 – 四川大学
-*2025年9月 - 2026年9月*
-- 牵头策划校园宣传活动，在校园内推广深度学习框架飞桨（PaddlePaddle）技术。
+**FDMamba-Net: Feature-Decoupled Mamba Network for Efficient Flight Trajectory Prediction**  
+*Tao, J., Xu, T., Fang, J., Xu, J., Liu, Y., & Liu, Y. — ICIC 2025, pp. 460–471（CCF-C，Oral）*
+- 现有轨迹预测框架多基于 LSTM 和 Transformer，难以兼顾特征利用与计算效率。本文提出以 Mamba 为核心的轨迹预测框架，通过特征分离与多尺度融合充分挖掘特征，并以 Mamba 替代 Transformer 实现线性复杂度的全序列建模，达成轻量、高效、高精度的时序预测。
+- **个人贡献：** 负责数据预处理与特征工程，完成全部对比实验与性能评估；搭建实验流程并实现结果可视化，对模型预测效果进行分析与验证。
 
-**部长**
-SCU Maker开源硬件协会 – 四川大学
-*2024年9月 - 2025年9月*
-- 带领社团荣获“成都市百佳学生社团”第一名。
-- 负责社团项目的收集与管理，以及计算机相关竞赛信息的汇总。
+**Multi-task Driven ResNet-Transformer Framework for Wind Power Forecasting with Dynamic Mode Decomposition Correction**  
+*Liu, Y., Li, W., Ran, R., Wang, Y., Xu, T., & Tao, J. — ICIC 2025, pp. 458–467（CCF-C）*
 
-**部长**
-飞扬俱乐部 – 四川大学
-*2024年9月 - 2026年9月*
-- 带领社团荣获“校园十佳公益社团”。
-- 负责社团官方网站的开发与日常财务运营管理。
-- 指导新成员的编程实践及规范化开发工作流。
+### 项目
+
+**基于多源数据融合与动态误差校正的风力发电功率预测方法**  
+大学生创新创业训练计划（省级），*负责人*，2025.10 - 2026.08
+- 针对风电预测的非平稳性与复杂时序依赖问题，融合数理方法与深度学习，提出轻量高效的多任务预测框架。
+- 设计 TCN-ResNet 双分支编码器分别提取历史功率与气象特征，以 Mamba 实现全局时序建模，并引入 DMD 对预测残差进行物理一致校正，显著提升了预测的准确性与鲁棒性。
+
+## 实践与实习
+
+**软件研发工程师（日常实习生）**  
+北京百度网讯科技有限公司  
+*2025.08 - 2026.03*
+- 基于飞桨生态（PaddlePaddle、PaddleX、PaddleDetection、PaddleHub、FastDeploy、ErnieKit）负责企业级 AI 项目开发与算法落地，聚焦工业智能检测与大模型应用，完成模型训练、部署推理及性能优化。
+
+**软件研发工程师**  
+成都亚利欣科技有限公司 – 成都  
+*2025.02 - 2025.09*
+- 负责相关软件系统的研发，以及平台环境的搭建、维护等。
 
 ## 项目经历
 
-**风电功率预测项目**
-*2025年11月 - 至今*
-- 基于对抗性状态空间建模与动态模式分解进行鲁棒性预测。
-- 实现 Mamba 架构以进行高效的状态空间建模。
-- 应用动态模式分解 (DMD) 进行特征校正。
-- 利用生成对抗网络 (GAN) 增强数据的鲁棒性。
-- 设计了 ResNet-TCN 非对称双分支融合网络。
-
-**Skyroad-Guide（无人机轨迹预测系统）**
-*2024年12月 - 2025年8月*
+**Skyroad-Guide（无人机轨迹预测系统）**  
+*2024.12 - 2025.08*
 - 一款用于无人机轨迹预测的 Web 应用程序。
 - 使用 Echarts 开发前端数据可视化，并使用 Flask 框架开发后端 API。
 
-**交通视频分析系统 (Traffic Video Analysis System)**
-*2025年3月 - 2025年7月*
+**交通视频分析系统（Traffic Video Analysis System）**  
+*2025.03 - 2025.07*
 - 一款用于车辆违规检测和交通流量分析的 Web 应用程序。
 - 整合 Vue.js、Java 和 OpenCV，实现交通违章检测及车流密度分析。
 
-## 论文发表
+## 专利与软件著作权
 
-- **Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition (KSEM 2026, CCF C类)** - Tao Xu, Ruiya Qi, Yuyi Zhang (*2026年7月*) | 10.1007/978-981-92-2868-3_6
-- **FDMamba-Net: Feature-Decoupled Mamba Network for Efficient Flight Trajectory Prediction (CCF C类)** - Jun Tao, Tao Xu, Jinyang Fang, Jingyuan Xu, Yiming Liu, Yixiao Liu (*2025年7月*) | 10.1007/978-981-96-9952-0_39
-- **Multi-task Driven ResNet-Transformer Framework for Wind Power Forecasting with Dynamic Mode Decomposition Correction (CCF C类)** - Yiming Liu, Wei Li, Ran Ran, Yongqi Wang, Tao Xu, Jun Tao (*2025年7月*) | 10.1007/978-981-96-9881-3_38
+- **2025.03** — 望天循迹：低空飞行器状态分析与管理平台 — *软件著作权，已授权*
+- **2025.04** — 基于特征解耦和 Mamba 网络的飞行轨迹预测方法 — *发明专利，实质审查阶段*
+- **2025.07** — 一种基于对抗生成框架的多模型混合飞行轨迹预测方法 — *发明专利，实质审查阶段*
+- **2025.10** — 智水良田：气候变化和农业节水条件下的灌区水分生产力模拟平台 — *软件著作权，已授权*
+- **2025.10** — 一种基于 CatBoost 的灌区水分生产力预测方法 — *发明专利，实质审查阶段*
 
-## 专业技能
+## 竞赛获奖
 
-- **编程语言与工具：** 熟练掌握 Python、C++ 和 Git；对 Web 开发、移动应用开发及 DevOps 均有良好理解。
-- **语言能力：** 英语（流利，CET-6：562）。
-- **摄影：** 风景摄影爱好者；熟练使用微单相机及 Adobe Lightroom / Photoshop 进行后期处理。
+- **2026.05** — 第十九届中国大学生计算机设计大赛，四川省二等奖
+- **2026.05** — 美国大学生数学建模竞赛（MCM/ICM），H 奖
+- **2026.04** — 华为 ICT 大赛，全国三等奖
+- **2025.08** — 第十八届中国大学生计算机设计大赛，全国三等奖
+- **2024.11** — 第十届通信与信息处理国际会议（ICCIP），全国二等奖
+- **2024.08** — 2024 年全国大学生物联网设计竞赛（华为杯），四川省一等奖
+- **2024.07** — 大学生电子设计竞赛 - 2024 年嵌入式系统设计竞赛邀请赛（Intel 杯），全国二等奖
+- **2024.10** — 第九届上海图书馆开放数据竞赛，人气奖
 
 ## 荣誉奖项
 
-- **省级二等奖** - 第十九届中国大学生计算机设计大赛 (*2026年5月*)
-- **H奖** - 美国大学生数学建模竞赛（MCM/ICM） (*2026年5月*)
-- **全国三等奖** - 华为ICT大赛 (*2026年4月*)
-- **全国二等奖** - 全国大学生电子设计竞赛 - 2024年嵌入式系统专题邀请赛（英特尔杯） (*2024年7月*)
-- **省级一等奖** - 2024年全国大学生物联网设计竞赛（华为杯） (*2024年8月*)
-- **人气奖** - 第九届上海图书馆开放数据竞赛 (*2024年10月*)
-- **全国二等奖** - 第十届通信与信息处理国际会议 (ICCIP) (*2024年11月*)
-- **全国三等奖** - 第十八届中国大学生计算机设计大赛 (*2025年8月*)
+- 国家励志奖学金（2024、2025）
+- 综合素质 A 级证书（四川大学）
+- 四川大学优秀学生（2025）
+- 四川大学综合二等奖学金（计算机学院，2025）
+- 四川大学综合三等奖学金（计算机学院，2024）
+- 四川大学综合二等奖学金（灾后重建与管理学院，2024）
 
-## 行业证书
+## 行业认证
 
-- **华为认证ICT工程师 - 人工智能 (HCIA-AI)** - 华为 (*有效期至 2028年11月27日*)
-- **大模型应用开发工程师** - 百度 (*有效期至 2029年12月24日*)
-- **深度学习算法研发工程师（IITC工信人才岗位能力评价证书）** - 工业和信息化部人才交流中心 (*2026年1月*)
+- **华为认证 ICT 工程师 - 人工智能（HCIA-AI）** — 华为（2025.11）
+- **大模型应用开发工程师** — 百度（2025.12）
+- **深度学习算法研发工程师** — 工业和信息化部人才交流中心（2026.01）
 
-## 专利与软件著作权
+## 专业技能
 
-- **实质审查专利：** 2 项（其中 1 项为第一作者，1 项为共同作者）
-- **软件著作权：** 2 项已授权（共同作者）
-19:T1316,## Education
+- **编程语言与工具：** Python、C++、Git；具备 Web / 移动应用开发与 DevOps 基础
+- **语言能力：** 英语（CET-6：562）
+- **摄影：** 风景摄影爱好者；熟练使用微单相机及 Adobe Lightroom / Photoshop 进行后期处理
+19:T1bf3,## Education
 
-**Sichuan University**, Bachelor of Engineering in Computer Science – Chengdu, China, *Sept 2023 - present*
-- GPA: 3.64/4.0, ranked 13 out of 323 students
-- Outstanding Student, Sichuan University, 2025
-- National Endeavor Scholarship, 2024 & 2025
-- Comprehensive Scholarship (2nd Prize), College of Computer Science, 2025
-- Comprehensive Scholarship (3rd Prize), College of Computer Science, 2024
-- Comprehensive Scholarship (2nd Prize), Institute for Disaster Management and Reconstruction, 2024
-- Member, "May Fourth Red Flag" Youth League Branch
+**Sichuan University**, B.Eng. in Computer Science and Technology – Chengdu, China, *Sept 2023 - present*
+- GPA: 3.64/4.0; required-course weighted average: 87.43; rank: 27/319 (top 8.5%)
+- Core courses: Operating Systems (91), Advanced Programming Language II (91), Introduction to Machine Learning (92), Introduction to Multimodal Learning (91), Machine Learning (97)
+- English: CET-6 (562)
+- Campus roles: Life and Psychology Committee Member; Deputy Secretary, Youth League Committee; Vice President, Baidu PaddlePaddle Leading Group; Member, "May Fourth Red Flag" Youth League Branch
+
+## Research Experience
+
+### Publications
+
+**Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition**  
+*Xu, T., Qi, R., & Zhang, Y. — KSEM 2026, pp. 73–82 (CCF-C, Oral)*
+- Existing wind power forecasting methods are mostly empirical regressions with a single data source, suffering from severe long-horizon error accumulation. We propose a ResNet-Mamba multi-task framework that fuses historical wind power and meteorological data, and applies DMD to correct prediction errors, significantly improving short- and long-term forecasting accuracy.
+- **Contribution:** Led the overall solution design and model development; completed experiment setup, result validation, and performance analysis; designed and implemented the ResNet + Mamba + DMD forecasting framework; wrote and revised the paper.
+
+**FDMamba-Net: Feature-Decoupled Mamba Network for Efficient Flight Trajectory Prediction**  
+*Tao, J., Xu, T., Fang, J., Xu, J., Liu, Y., & Liu, Y. — ICIC 2025, pp. 460–471 (CCF-C, Oral)*
+- Existing trajectory prediction frameworks are mostly based on LSTM and Transformer, making it difficult to balance feature utilization and computational efficiency. We propose a Mamba-centric framework that fully exploits features through feature separation and multi-scale fusion, and replaces Transformer with Mamba for linear-complexity full-sequence modeling, achieving lightweight, efficient, and accurate time-series prediction.
+- **Contribution:** Responsible for data preprocessing and feature engineering; completed all comparison experiments and performance evaluation; built the experiment pipeline and implemented result visualization; analyzed and validated model prediction performance.
+
+**Multi-task Driven ResNet-Transformer Framework for Wind Power Forecasting with Dynamic Mode Decomposition Correction**  
+*Liu, Y., Li, W., Ran, R., Wang, Y., Xu, T., & Tao, J. — ICIC 2025, pp. 458–467 (CCF-C)*
+
+### Research Project
+
+**Multi-source Data Fusion and Dynamic Error Correction for Wind Power Forecasting**  
+Provincial Undergraduate Innovation and Entrepreneurship Training Program, *Project Lead*, Oct 2025 – Aug 2026
+- Targeting the non-stationarity and complex temporal dependencies of wind power forecasting, we combined mathematical methods with deep learning to build a lightweight and efficient multi-task forecasting framework.
+- Designed a TCN-ResNet dual-branch encoder to extract historical power and meteorological features respectively, used Mamba for global temporal modeling, and introduced DMD for physically consistent correction of prediction residuals, significantly improving forecasting accuracy and robustness.
 
 ## Experience
 
-**Intern**
-Baidu
+**Software R&D Engineer Intern**  
+Beijing Baidu Netcom Science Technology Co., Ltd. (Baidu)  
 *Aug 2025 - Mar 2026*
-- Developed enterprise-level AI model applications, tested and fixed large- and small-model projects, and used PaddlePaddle and Wenxin development kits for model tuning.
+- Worked on enterprise-level AI project development and algorithm deployment within the PaddlePaddle ecosystem (PaddlePaddle, PaddleX, PaddleDetection, PaddleHub, FastDeploy, ErnieKit), focusing on industrial intelligent inspection and large-model applications; completed model training, inference deployment, and performance optimization.
 
-**Software Engineer**
-Chengdu Yalixin Technology Co., Ltd. – Chengdu
+**Software R&D Engineer**  
+Chengdu Yalixin Technology Co., Ltd. – Chengdu, China  
 *Feb 2025 - Sept 2025*
-- Charge of software subsystem and platform environment development and maintenance.
-
-**Vice President**
-Baidu PaddlePaddle Leading Group – Sichuan University
-*Sept 2025 - Sept 2026*
-- Spearheaded publicity campaigns to promote deep learning framework PaddlePaddle technologies on campus.
-
-**Club Minister**
-SCU Maker – Sichuan University
-*Sept 2024 - Sept 2025*
-- Ranked first among Chengdu’s top 100 student clubs.
-- Oversaw the project collection and management of the club, as well as gathering information on computer-related competitions.
-
-**Club Minister**
-Feiyang Club – Sichuan University
-*Sept 2024 - Sept 2026*
-- Top Ten Public Welfare Clubs on Campus.
-- Managed the official website development, financial operations.
-- Mentored new members on coding practices and standardized development workflows.
+- Responsible for software system R&D, as well as platform environment setup and maintenance.
 
 ## Projects
 
-**Wind Power Prediction**
-*Nov 2025 - present*
-- Robust forecasting via adversarial state-space modeling and dynamic mode decomposition.
-- Implemented Mamba architecture for efficient state-space modeling.
-- Applied Dynamic Mode Decomposition (DMD) for feature correction.
-- Utilized GAN to enhance data robustness.
-- Designed a ResNet-TCN asymmetric dual-branch fusion network.
-
-**Skyroad-Guide**
+**Skyroad-Guide (UAV Trajectory Prediction System)**  
 *Dec 2024 - Aug 2025*
-- A web application for flight trajectory prediction.
-- Developed the visualization frontend using Echarts and backend API with Flask.
+- A web application for UAV trajectory prediction; built the front-end visualization with Echarts and the back-end API with Flask.
 
-**Traffic Video Analysis System**
+**Traffic Video Analysis System**  
 *Mar 2025 - July 2025*
-- A web application for vehicle violations and traffic flow.
-- Integrated Vue.js, Java, and OpenCV to detect traffic violations and analyze flow density.
+- A web application for vehicle violation detection and traffic flow analysis; integrated Vue.js, Java, and OpenCV to detect traffic violations and analyze flow density.
 
-## Publications
+## Patents & Software Copyrights
 
-- **Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition (KSEM 2026, CCF C)** - Tao Xu, Ruiya Qi, Yuyi Zhang (*July 2026*) | 10.1007/978-981-92-2868-3_6
-- **FDMamba-Net: Feature-Decoupled Mamba Network for Efficient Flight Trajectory Prediction (CCF C)** - Jun Tao, Tao Xu, Jinyang Fang, Jingyuan Xu, Yiming Liu, Yixiao Liu (*July 2025*) | 10.1007/978-981-96-9952-0_39
-- **Multi-task Driven ResNet-Transformer Framework for Wind Power Forecasting with Dynamic Mode Decomposition Correction (CCF C)** - Yiming Liu, Wei Li, Ran Ran, Yongqi Wang, Tao Xu, Jun Tao (*July 2025*) | 10.1007/978-981-96-9881-3_38
-
-## Skills
-
-- **Programming:** Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-- **Languages:** English (fluent, CET6:562)
-- **Photography:** Enthusiast in landscape photography; proficient with mirrorless cameras and Adobe Lightroom/Photoshop for post-processing
+- **2025.03** — Wangtian Xunji: Low-Altitude Aircraft Condition Analysis and Management Platform — *Software Copyright, granted*
+- **2025.04** — Flight Trajectory Prediction Method Based on Feature Decoupling and Mamba Networks — *Patent, substantive examination*
+- **2025.07** — Multi-model Hybrid Flight Trajectory Prediction Method Based on an Adversarial Generation Framework — *Patent, substantive examination*
+- **2025.10** — Zhishui Liangtian: Irrigation Water Productivity Simulation Platform under Climate Change and Agricultural Water Saving — *Software Copyright, granted*
+- **2025.10** — Irrigation Water Productivity Prediction Method Based on CatBoost — *Patent, substantive examination*
 
 ## Awards & Honors
 
-- **Provincial 2nd Prize** - The 19th China Collegiate Computer Design Competition (*May 2026*)
-- **Honorable Mention** - Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM) (*May 2026*)
-- **National 3rd Prize** - Huawei ICT Competition (*Apr 2026*)
-- **National 2nd Prize** - Undergraduate Electronic Design Contest - 2024 Embedded System Design Invitational Contest (Intel Cup) (*July 2024*)
-- **Provincial 1st Prize** - 2024 National Undergraduate IoT Design Contest (Huawei Cup) (*Aug 2024*)
-- **People’s Choice Award** - The 9th Shanghai Library Open Data Competition (*Oct 2024*)
-- **National 2nd Prize** - The 10th International Conference on Communication and Information Processing (ICCIP) (*Nov 2024*)
-- **National 3rd Prize** - The 18th China Collegiate Computer Design Competition (*Aug 2025*)
+### Competitions
+
+- **Provincial 2nd Prize** — The 19th China Collegiate Computer Design Competition (*May 2026*)
+- **Honorable Mention (H Award)** — Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM) (*May 2026*)
+- **National 3rd Prize** — Huawei ICT Competition (*Apr 2026*)
+- **National 3rd Prize** — The 18th China Collegiate Computer Design Competition (*Aug 2025*)
+- **National 2nd Prize** — The 10th International Conference on Communication and Information Processing (ICCIP) (*Nov 2024*)
+- **Provincial 1st Prize** — 2024 National Undergraduate IoT Design Contest (Huawei Cup) (*Aug 2024*)
+- **National 2nd Prize** — Undergraduate Electronic Design Contest, 2024 Embedded System Design Invitational Contest (Intel Cup) (*Jul 2024*)
+- **People's Choice Award** — The 9th Shanghai Library Open Data Competition (*Oct 2024*)
+
+### Scholarships & Honors
+
+- National Endeavor Scholarship, 2024 & 2025
+- Comprehensive Quality Grade A Certificate, Sichuan University
+- Outstanding Student, Sichuan University, 2025
+- Comprehensive Scholarship (2nd Prize), College of Computer Science, Sichuan University, 2025
+- Comprehensive Scholarship (3rd Prize), College of Computer Science, Sichuan University, 2024
+- Comprehensive Scholarship (2nd Prize), Institute for Disaster Management and Reconstruction, Sichuan University, 2024
 
 ## Industry Certifications
 
-- **Huawei Certified ICT Associate - Artificial Intelligence (HCIA-AI)** - Huawei (*Valid through Nov 27, 2028*)
-- **Large Language Model Application Development Engineer** - Baidu (*Valid through Dec 24, 2029*)
-- **Deep-Learning Algorithm Development Engineer (IITC Job Capability Certification)** - Industrial and Information Technology Talents Center (*Jan 2026*)
+- **Huawei Certified ICT Associate – Artificial Intelligence (HCIA-AI)** — Huawei (*Nov 2025*)
+- **Large Model Application Development Engineer** — Baidu (*Dec 2025*)
+- **Deep Learning Algorithm Development Engineer** — Ministry of Industry and Information Technology (MIIT) (*Jan 2026*)
 
-## Patents & Copyrights
+## Skills
 
-- **Substantive Examination of Patents:** 2 items (1 as 1st Author, 1 as Co-author)
-- **Software Copyrights:** 2 items granted (Co-author)
+- **Programming:** Python, C++, Git; web and app development, DevOps fundamentals
+- **Languages:** English (CET-6: 562)
+- **Photography:** Landscape photography enthusiast; proficient with mirrorless cameras and Adobe Lightroom/Photoshop
 9:["$","$L17",null,{"dataByLocale":{"zh":{"type":"text","config":{"type":"text","title":"简历","source":"cv.md"},"content":"$18"},"en":{"type":"text","config":{"type":"text","title":"CV","source":"cv.md"},"content":"$19"}},"defaultLocale":"en"}]
 e:null
 12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]

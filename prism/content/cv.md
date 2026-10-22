@@ -1,94 +1,95 @@
 ## Education
 
-**Sichuan University**, Bachelor of Engineering in Computer Science – Chengdu, China, *Sept 2023 - present*
-- GPA: 3.64/4.0, ranked 13 out of 323 students
-- Outstanding Student, Sichuan University, 2025
-- National Endeavor Scholarship, 2024 & 2025
-- Comprehensive Scholarship (2nd Prize), College of Computer Science, 2025
-- Comprehensive Scholarship (3rd Prize), College of Computer Science, 2024
-- Comprehensive Scholarship (2nd Prize), Institute for Disaster Management and Reconstruction, 2024
-- Member, "May Fourth Red Flag" Youth League Branch
+**Sichuan University**, B.Eng. in Computer Science and Technology – Chengdu, China, *Sept 2023 - present*
+- GPA: 3.64/4.0; required-course weighted average: 87.43; rank: 27/319 (top 8.5%)
+- Core courses: Operating Systems (91), Advanced Programming Language II (91), Introduction to Machine Learning (92), Introduction to Multimodal Learning (91), Machine Learning (97)
+- English: CET-6 (562)
+- Campus roles: Life and Psychology Committee Member; Deputy Secretary, Youth League Committee; Vice President, Baidu PaddlePaddle Leading Group; Member, "May Fourth Red Flag" Youth League Branch
+
+## Research Experience
+
+### Publications
+
+**Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition**  
+*Xu, T., Qi, R., & Zhang, Y. — KSEM 2026, pp. 73–82 (CCF-C, Oral)*
+- Existing wind power forecasting methods are mostly empirical regressions with a single data source, suffering from severe long-horizon error accumulation. We propose a ResNet-Mamba multi-task framework that fuses historical wind power and meteorological data, and applies DMD to correct prediction errors, significantly improving short- and long-term forecasting accuracy.
+- **Contribution:** Led the overall solution design and model development; completed experiment setup, result validation, and performance analysis; designed and implemented the ResNet + Mamba + DMD forecasting framework; wrote and revised the paper.
+
+**FDMamba-Net: Feature-Decoupled Mamba Network for Efficient Flight Trajectory Prediction**  
+*Tao, J., Xu, T., Fang, J., Xu, J., Liu, Y., & Liu, Y. — ICIC 2025, pp. 460–471 (CCF-C, Oral)*
+- Existing trajectory prediction frameworks are mostly based on LSTM and Transformer, making it difficult to balance feature utilization and computational efficiency. We propose a Mamba-centric framework that fully exploits features through feature separation and multi-scale fusion, and replaces Transformer with Mamba for linear-complexity full-sequence modeling, achieving lightweight, efficient, and accurate time-series prediction.
+- **Contribution:** Responsible for data preprocessing and feature engineering; completed all comparison experiments and performance evaluation; built the experiment pipeline and implemented result visualization; analyzed and validated model prediction performance.
+
+**Multi-task Driven ResNet-Transformer Framework for Wind Power Forecasting with Dynamic Mode Decomposition Correction**  
+*Liu, Y., Li, W., Ran, R., Wang, Y., Xu, T., & Tao, J. — ICIC 2025, pp. 458–467 (CCF-C)*
+
+### Research Project
+
+**Multi-source Data Fusion and Dynamic Error Correction for Wind Power Forecasting**  
+Provincial Undergraduate Innovation and Entrepreneurship Training Program, *Project Lead*, Oct 2025 – Aug 2026
+- Targeting the non-stationarity and complex temporal dependencies of wind power forecasting, we combined mathematical methods with deep learning to build a lightweight and efficient multi-task forecasting framework.
+- Designed a TCN-ResNet dual-branch encoder to extract historical power and meteorological features respectively, used Mamba for global temporal modeling, and introduced DMD for physically consistent correction of prediction residuals, significantly improving forecasting accuracy and robustness.
 
 ## Experience
 
-**Intern**
-Baidu
+**Software R&D Engineer Intern**  
+Beijing Baidu Netcom Science Technology Co., Ltd. (Baidu)  
 *Aug 2025 - Mar 2026*
-- Developed enterprise-level AI model applications, tested and fixed large- and small-model projects, and used PaddlePaddle and Wenxin development kits for model tuning.
+- Worked on enterprise-level AI project development and algorithm deployment within the PaddlePaddle ecosystem (PaddlePaddle, PaddleX, PaddleDetection, PaddleHub, FastDeploy, ErnieKit), focusing on industrial intelligent inspection and large-model applications; completed model training, inference deployment, and performance optimization.
 
-**Software Engineer**
-Chengdu Yalixin Technology Co., Ltd. – Chengdu
+**Software R&D Engineer**  
+Chengdu Yalixin Technology Co., Ltd. – Chengdu, China  
 *Feb 2025 - Sept 2025*
-- Charge of software subsystem and platform environment development and maintenance.
-
-**Vice President**
-Baidu PaddlePaddle Leading Group – Sichuan University
-*Sept 2025 - Sept 2026*
-- Spearheaded publicity campaigns to promote deep learning framework PaddlePaddle technologies on campus.
-
-**Club Minister**
-SCU Maker – Sichuan University
-*Sept 2024 - Sept 2025*
-- Ranked first among Chengdu’s top 100 student clubs.
-- Oversaw the project collection and management of the club, as well as gathering information on computer-related competitions.
-
-**Club Minister**
-Feiyang Club – Sichuan University
-*Sept 2024 - Sept 2026*
-- Top Ten Public Welfare Clubs on Campus.
-- Managed the official website development, financial operations.
-- Mentored new members on coding practices and standardized development workflows.
+- Responsible for software system R&D, as well as platform environment setup and maintenance.
 
 ## Projects
 
-**Wind Power Prediction**
-*Nov 2025 - present*
-- Robust forecasting via adversarial state-space modeling and dynamic mode decomposition.
-- Implemented Mamba architecture for efficient state-space modeling.
-- Applied Dynamic Mode Decomposition (DMD) for feature correction.
-- Utilized GAN to enhance data robustness.
-- Designed a ResNet-TCN asymmetric dual-branch fusion network.
-
-**Skyroad-Guide**
+**Skyroad-Guide (UAV Trajectory Prediction System)**  
 *Dec 2024 - Aug 2025*
-- A web application for flight trajectory prediction.
-- Developed the visualization frontend using Echarts and backend API with Flask.
+- A web application for UAV trajectory prediction; built the front-end visualization with Echarts and the back-end API with Flask.
 
-**Traffic Video Analysis System**
+**Traffic Video Analysis System**  
 *Mar 2025 - July 2025*
-- A web application for vehicle violations and traffic flow.
-- Integrated Vue.js, Java, and OpenCV to detect traffic violations and analyze flow density.
+- A web application for vehicle violation detection and traffic flow analysis; integrated Vue.js, Java, and OpenCV to detect traffic violations and analyze flow density.
 
-## Publications
+## Patents & Software Copyrights
 
-- **Robust Wind Power Forecasting via Adversarial State-Space Modeling and Dynamic Mode Decomposition (KSEM 2026, CCF C)** - Tao Xu, Ruiya Qi, Yuyi Zhang (*July 2026*) | 10.1007/978-981-92-2868-3_6
-- **FDMamba-Net: Feature-Decoupled Mamba Network for Efficient Flight Trajectory Prediction (CCF C)** - Jun Tao, Tao Xu, Jinyang Fang, Jingyuan Xu, Yiming Liu, Yixiao Liu (*July 2025*) | 10.1007/978-981-96-9952-0_39
-- **Multi-task Driven ResNet-Transformer Framework for Wind Power Forecasting with Dynamic Mode Decomposition Correction (CCF C)** - Yiming Liu, Wei Li, Ran Ran, Yongqi Wang, Tao Xu, Jun Tao (*July 2025*) | 10.1007/978-981-96-9881-3_38
-
-## Skills
-
-- **Programming:** Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-- **Languages:** English (fluent, CET6:562)
-- **Photography:** Enthusiast in landscape photography; proficient with mirrorless cameras and Adobe Lightroom/Photoshop for post-processing
+- **2025.03** — Wangtian Xunji: Low-Altitude Aircraft Condition Analysis and Management Platform — *Software Copyright, granted*
+- **2025.04** — Flight Trajectory Prediction Method Based on Feature Decoupling and Mamba Networks — *Patent, substantive examination*
+- **2025.07** — Multi-model Hybrid Flight Trajectory Prediction Method Based on an Adversarial Generation Framework — *Patent, substantive examination*
+- **2025.10** — Zhishui Liangtian: Irrigation Water Productivity Simulation Platform under Climate Change and Agricultural Water Saving — *Software Copyright, granted*
+- **2025.10** — Irrigation Water Productivity Prediction Method Based on CatBoost — *Patent, substantive examination*
 
 ## Awards & Honors
 
-- **Provincial 2nd Prize** - The 19th China Collegiate Computer Design Competition (*May 2026*)
-- **Honorable Mention** - Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM) (*May 2026*)
-- **National 3rd Prize** - Huawei ICT Competition (*Apr 2026*)
-- **National 2nd Prize** - Undergraduate Electronic Design Contest - 2024 Embedded System Design Invitational Contest (Intel Cup) (*July 2024*)
-- **Provincial 1st Prize** - 2024 National Undergraduate IoT Design Contest (Huawei Cup) (*Aug 2024*)
-- **People’s Choice Award** - The 9th Shanghai Library Open Data Competition (*Oct 2024*)
-- **National 2nd Prize** - The 10th International Conference on Communication and Information Processing (ICCIP) (*Nov 2024*)
-- **National 3rd Prize** - The 18th China Collegiate Computer Design Competition (*Aug 2025*)
+### Competitions
+
+- **Provincial 2nd Prize** — The 19th China Collegiate Computer Design Competition (*May 2026*)
+- **Honorable Mention (H Award)** — Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM) (*May 2026*)
+- **National 3rd Prize** — Huawei ICT Competition (*Apr 2026*)
+- **National 3rd Prize** — The 18th China Collegiate Computer Design Competition (*Aug 2025*)
+- **National 2nd Prize** — The 10th International Conference on Communication and Information Processing (ICCIP) (*Nov 2024*)
+- **Provincial 1st Prize** — 2024 National Undergraduate IoT Design Contest (Huawei Cup) (*Aug 2024*)
+- **National 2nd Prize** — Undergraduate Electronic Design Contest, 2024 Embedded System Design Invitational Contest (Intel Cup) (*Jul 2024*)
+- **People's Choice Award** — The 9th Shanghai Library Open Data Competition (*Oct 2024*)
+
+### Scholarships & Honors
+
+- National Endeavor Scholarship, 2024 & 2025
+- Comprehensive Quality Grade A Certificate, Sichuan University
+- Outstanding Student, Sichuan University, 2025
+- Comprehensive Scholarship (2nd Prize), College of Computer Science, Sichuan University, 2025
+- Comprehensive Scholarship (3rd Prize), College of Computer Science, Sichuan University, 2024
+- Comprehensive Scholarship (2nd Prize), Institute for Disaster Management and Reconstruction, Sichuan University, 2024
 
 ## Industry Certifications
 
-- **Huawei Certified ICT Associate - Artificial Intelligence (HCIA-AI)** - Huawei (*Valid through Nov 27, 2028*)
-- **Large Language Model Application Development Engineer** - Baidu (*Valid through Dec 24, 2029*)
-- **Deep-Learning Algorithm Development Engineer (IITC Job Capability Certification)** - Industrial and Information Technology Talents Center (*Jan 2026*)
+- **Huawei Certified ICT Associate – Artificial Intelligence (HCIA-AI)** — Huawei (*Nov 2025*)
+- **Large Model Application Development Engineer** — Baidu (*Dec 2025*)
+- **Deep Learning Algorithm Development Engineer** — Ministry of Industry and Information Technology (MIIT) (*Jan 2026*)
 
-## Patents & Copyrights
+## Skills
 
-- **Substantive Examination of Patents:** 2 items (1 as 1st Author, 1 as Co-author)
-- **Software Copyrights:** 2 items granted (Co-author)
+- **Programming:** Python, C++, Git; web and app development, DevOps fundamentals
+- **Languages:** English (CET-6: 562)
+- **Photography:** Landscape photography enthusiast; proficient with mirrorless cameras and Adobe Lightroom/Photoshop
