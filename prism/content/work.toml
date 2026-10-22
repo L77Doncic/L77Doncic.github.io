@@ -1,0 +1,15 @@
+type = "card"
+title = "Work Experience"
+description = "Industry experience in AI and software engineering."
+
+[[items]]
+title = "Software R&D Engineer Intern"
+subtitle = "Beijing Baidu Netcom Science Technology Co., Ltd. (Baidu)"
+date = "Aug 2025 - Mar 2026"
+content = "Enterprise-level AI project development and algorithm deployment within the PaddlePaddle ecosystem (PaddlePaddle, PaddleX, PaddleDetection, PaddleHub, FastDeploy, ErnieKit), focusing on industrial intelligent inspection and large-model applications; completed model training, inference deployment, and performance optimization."
+
+[[items]]
+title = "Software R&D Engineer"
+subtitle = "Chengdu Yalixin Technology Co., Ltd. – Chengdu"
+date = "Feb 2025 - Sept 2025"
+content = "Responsible for software system R&D, as well as platform environment setup and maintenance."

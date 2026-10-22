@@ -1,0 +1,15 @@
+type = "card"
+title = "工作经历"
+description = "人工智能与软件工程领域的企业工作经历。"
+
+[[items]]
+title = "软件研发工程师（日常实习生）"
+subtitle = "北京百度网讯科技有限公司"
+date = "2025.08 - 2026.03"
+content = "基于飞桨生态（PaddlePaddle、PaddleX、PaddleDetection、PaddleHub、FastDeploy、ErnieKit）负责企业级 AI 项目开发与算法落地，聚焦工业智能检测与大模型应用，完成模型训练、部署推理及性能优化。"
+
+[[items]]
+title = "软件研发工程师"
+subtitle = "成都亚利欣科技有限公司 – 成都"
+date = "2025.02 - 2025.09"
+content = "负责相关软件系统的研发，以及平台环境的搭建、维护等。"

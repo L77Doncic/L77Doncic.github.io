@@ -5,7 +5,7 @@ GitHub Pages 部署的个人学术主页（https://l77doncic.github.io/）。**�
 ## 项目结构
 
 ```
-├── index.html, _next/, publications/, awards/, cv/, services/, 404/  ← 构建产物（勿手改！）
+├── index.html, _next/, publications/, awards/, work/, cv/, 404/  ← 构建产物（勿手改！）
 ├── .nojekyll            ← 必须保留，防止 GitHub Pages 跑 Jekyll 破坏 _next 路径
 ├── prism/               ← Next.js 源码（本仓库唯一需要编辑的地方）
 │   ├── content/         ← 英文内容（TOML / Markdown / BibTeX）
@@ -22,7 +22,7 @@ GitHub Pages 部署的个人学术主页（https://l77doncic.github.io/）。**�
 | 首页 `/` | `content/about.toml` + `bio.md` + `news.toml` + `publications.bib`(selected) | `content_zh/` 对应文件 |
 | `/publications` | `content/publications.toml` + `publications.bib` | 同上（bib 中英共用） |
 | `/awards` | `content/awards.toml` | `content_zh/awards.toml` |
-| `/services` | `content/services.toml` | `content_zh/services.toml` |
+| `/work` | `content/work.toml` | `content_zh/work.toml` |
 | `/cv` | `content/cv.toml` + `cv.md` | `content_zh/cv.toml` + `cv.md` |
 
 ## 🧩 模块体系（三层：页面 / 区块 / 内容项）
@@ -46,7 +46,7 @@ GitHub Pages 部署的个人学术主页（https://l77doncic.github.io/）。**�
 | `publications` | 精选论文列表 | `filter = "selected"` 时只显示 bib 里 `selected={true}` 的论文，`limit` 控制条数 |
 | `list` | 列表区块（如 News） | `source` 指向的 `.toml`（`[[news]]` 条目） |
 
-**第三层：内容项**：`awards.toml`/`services.toml` 的 `[[items]]`、`news.toml` 的 `[[news]]`、`publications.bib` 的每条 `@xxx{}` 条目。
+**第三层：内容项**：`awards.toml`/`work.toml` 的 `[[items]]`、`news.toml` 的 `[[news]]`、`publications.bib` 的每条 `@xxx{}` 条目。
 
 ## ⚠️ 铁律（血泪教训）
 
@@ -112,7 +112,7 @@ Markdown 格式；`about.toml` 里 `research_interests` 是右侧兴趣列表，
 
 Markdown 格式，章节标题用 `##`。注意中英文两份要同步改。
 
-### 5. 改奖项/服务 → `content/awards.toml` / `content/services.toml`（及 content_zh）
+### 5. 改奖项/工作经历 → `content/awards.toml` / `content/work.toml`（及 content_zh）
 
 ```toml
 type = "card"

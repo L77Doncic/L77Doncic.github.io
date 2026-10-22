@@ -40,10 +40,10 @@ target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "服务"
+title = "工作经历"
 type = "page"
-target = "services"
-href = "/services"
+target = "work"
+href = "/work"
 
 [[navigation]]
 title = "简历"

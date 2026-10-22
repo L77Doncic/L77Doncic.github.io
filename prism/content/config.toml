@@ -66,10 +66,10 @@ target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "Services"
+title = "Work"
 type = "page"
-target = "services"
-href = "/services"
+target = "work"
+href = "/work"
 
 [[navigation]]
 title = "CV"
